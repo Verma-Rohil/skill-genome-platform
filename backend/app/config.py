@@ -36,10 +36,9 @@ class Settings(BaseSettings):
     MLFLOW_TRACKING_URI: str = "http://localhost:5000"
 
     # --- Embedding ---
-    EMBEDDING_MODEL: str = "word2vec"
-    EMBEDDING_DIM: int = 100
-    EMBEDDING_WINDOW: int = 5
-    EMBEDDING_MIN_COUNT: int = 3
+    EMBEDDING_MODEL: str = "sbert"               # sbert | word2vec
+    EMBEDDING_MODEL_NAME: str = "all-MiniLM-L6-v2"  # S-BERT model identifier
+    EMBEDDING_DIM: int = 384                       # S-BERT outputs 384-dim vectors
 
     # --- Clustering ---
     CLUSTER_METHOD: str = "kmeans"
