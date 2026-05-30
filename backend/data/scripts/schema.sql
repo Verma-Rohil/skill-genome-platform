@@ -96,17 +96,24 @@ CREATE TABLE IF NOT EXISTS archetype_skills (
         ON DELETE CASCADE
 ) ENGINE=InnoDB;
 
--- ----- Trends -----
-CREATE TABLE IF NOT EXISTS skill_trends (
-    id              INT AUTO_INCREMENT PRIMARY KEY,
-    skill_id        INT NOT NULL,
-    period          DATE NOT NULL,
-    mention_count   INT NOT NULL,
-    growth_rate     FLOAT,
-    FOREIGN KEY (skill_id) REFERENCES skills(id)
+-- ----- Skill Co-occurrences -----
+CREATE TABLE IF NOT EXISTS skill_cooccurrences (
+    id                  INT AUTO_INCREMENT PRIMARY KEY,
+    skill_a_id          INT NOT NULL,
+    skill_b_id          INT NOT NULL,
+    cooccurrence_count  INT NOT NULL,
+    support             FLOAT NOT NULL,
+    confidence_a_b      FLOAT NOT NULL,
+    confidence_b_a      FLOAT NOT NULL,
+    lift                FLOAT NOT NULL,
+    pmi                 FLOAT NOT NULL,
+    FOREIGN KEY (skill_a_id) REFERENCES skills(id)
         ON DELETE CASCADE,
-    UNIQUE KEY uk_skill_period (skill_id, period),
-    INDEX idx_period (period)
+    FOREIGN KEY (skill_b_id) REFERENCES skills(id)
+        ON DELETE CASCADE,
+    UNIQUE KEY uk_skills_pair (skill_a_id, skill_b_id),
+    INDEX idx_lift (lift),
+    INDEX idx_cooccurrence (cooccurrence_count)
 ) ENGINE=InnoDB;
 
 -- ----- ML Experiments -----

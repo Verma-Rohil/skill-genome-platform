@@ -11,7 +11,7 @@ from app.models.job_posting import JobPosting
 from app.models.job_skill import JobSkill
 from app.models.career_archetype import CareerArchetype
 from app.models.archetype_skill import ArchetypeSkill
-from app.models.skill_trend import SkillTrend
+from app.models.skill_cooccurrence import SkillCooccurrence
 from app.models.ml_experiment import MLExperiment
 
 __all__ = [
@@ -22,6 +22,6 @@ __all__ = [
     "JobSkill",
     "CareerArchetype",
     "ArchetypeSkill",
-    "SkillTrend",
+    "SkillCooccurrence",
     "MLExperiment",
 ]

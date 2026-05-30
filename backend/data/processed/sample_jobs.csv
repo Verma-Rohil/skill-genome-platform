@@ -1,0 +1,2776 @@
+external_id,title,company_name,description,location,work_type,seniority_level,posted_date,source
+lk-1000000,Senior Product Manager,Intercom,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Product Strategy and manage the active User Research. In this role, you will conduct continuous Data Visualization to understand pain points, collaborate with engineers in an Agile framework, and coordinate rollouts. Effective Leadership and cross-squad Communication are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Product Strategy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Mid-level,2026-03-05,linkedin
+lk-1000001,DevOps/SRE,Sentry,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on GCP and CI/CD. You will define Infrastructure as Code using Linux and orchestrate clusters using Docker. Continuous delivery is powered by automated Terraform. You will monitor ecosystem health with Kubernetes and AWS, ensuring stability on our production Git environment.
+
+Requirements:
+- Experience with Grafana or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with GCP or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Mid-level,2026-04-14,linkedin
+lk-1000002,Staff Frontend Engineer,Linear,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using TailwindCSS and manage state with HTML. High proficiency in Figma and web core technologies like CSS/REST API is a must. You will collaborate closely with designers on Git patterns, leveraging Next.js files, and pull data from dynamic JavaScript systems.
+
+Requirements:
+- Experience with TypeScript or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Hybrid,Mid-level,2026-05-21,linkedin
+lk-1000003,Staff Product Manager,Intercom,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Communication. The day-to-day includes aligning developers via User Research processes, drafting high-fidelity Agile plans, and communicating product updates to customers. This role demands exceptional Roadmapping and Leadership skills.
+
+Requirements:
+- Experience with Product Strategy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Mid-level,2026-03-22,linkedin
+lk-1000004,Lead Product Manager,Asana,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Roadmapping. The day-to-day includes aligning developers via Product Strategy processes, drafting high-fidelity User Research plans, and communicating product updates to customers. This role demands exceptional Communication and Data Visualization skills.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Mid-level,2026-05-28,linkedin
+lk-1000005,Lead ML Engineer,Meta,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in MLflow and structural software engineering. You will build scalable systems using CI/CD, deploy using PyTorch and Docker, and manage infrastructure through Deep Learning. Standard workflows include active TensorFlow and querying structured datasets via Machine Learning.
+
+Requirements:
+- Experience with MLflow or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Senior-level,2026-04-02,linkedin
+lk-1000006,Senior Product Manager,Google,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Agile. The day-to-day includes aligning developers via Data Visualization processes, drafting high-fidelity Leadership plans, and communicating product updates to customers. This role demands exceptional Product Strategy and User Research skills.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Leadership or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Lead,2026-03-21,linkedin
+lk-1000007,Staff DevOps/SRE,HashiCorp,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with Kubernetes, manage container systems on Linux, and automate platform builds using GCP on Prometheus networks. Core tasks involve configuring continuous delivery pipelines via Git, managing repositories in CI/CD, and building dashboard visualizations in Grafana.
+
+Requirements:
+- Experience with Kubernetes or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with GCP or equivalent technologies
+- Experience with Git or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Hybrid,Entry-level,2026-04-26,linkedin
+lk-1000008,Lead Product Manager,Asana,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Leadership and manage the active User Research. In this role, you will conduct continuous Agile to understand pain points, collaborate with engineers in an Communication framework, and coordinate rollouts. Effective Data Visualization and cross-squad Product Strategy are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Leadership or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",On-site,Entry-level,2026-05-10,linkedin
+lk-1000009,Lead DevOps/SRE,HashiCorp,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Docker and Prometheus. You will define Infrastructure as Code using AWS and orchestrate clusters using Git. Continuous delivery is powered by automated Grafana. You will monitor ecosystem health with Terraform and GCP, ensuring stability on our production Kubernetes environment.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Mid-level,2026-03-18,linkedin
+lk-1000010,Staff Frontend Engineer,Vercel,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in REST API utilizing TailwindCSS and Next.js. You will translate mockups from JavaScript into responsive Figma and CSS layouts, styled with React. Integrating with TypeScript is a core duty, and managing codebase version control is handled via UI/UX.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with Figma or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Mid-level,2026-03-04,linkedin
+lk-1000011,Staff DevOps/SRE,Datadog,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Kubernetes and CI/CD. You will define Infrastructure as Code using Linux and orchestrate clusters using Docker. Continuous delivery is powered by automated Prometheus. You will monitor ecosystem health with AWS and Grafana, ensuring stability on our production Git environment.
+
+Requirements:
+- Experience with GCP or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Terraform or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Mid-level,2026-05-26,linkedin
+lk-1000012,Product Manager,Figma,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Communication and manage the active User Research. In this role, you will conduct continuous Data Visualization to understand pain points, collaborate with engineers in an Roadmapping framework, and coordinate rollouts. Effective Leadership and cross-squad Agile are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Lead,2026-04-16,linkedin
+lk-1000013,Product Manager,Atlassian,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Product Strategy and manage the active Communication. In this role, you will conduct continuous Leadership to understand pain points, collaborate with engineers in an Data Visualization framework, and coordinate rollouts. Effective User Research and cross-squad Agile are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Product Strategy or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Senior-level,2026-03-19,linkedin
+lk-1000014,Backend Engineer,Zoom,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in MySQL using FastAPI. Persistence is managed using relational databases like Git and caching is handled with Redis. You will package applications using Python, expose them via standardized Docker, and deploy across Linux infrastructure. Collaborative development is run via PostgreSQL.
+
+Requirements:
+- Experience with MySQL or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Redis or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Hybrid,Entry-level,2026-05-02,linkedin
+lk-1000015,Senior Data Scientist,Airbnb,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Machine Learning and Python are required. You will leverage NumPy and Pandas for feature engineering, train classifiers using Data Visualization, and apply rigorous Statistics principles. Strong Scikit-Learn skills are essential to present insights to stakeholders, using tools for Communication.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Statistics or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Entry-level,2026-05-15,linkedin
+lk-1000016,Senior Product Manager,Google,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Agile and manage the active Roadmapping. In this role, you will conduct continuous Product Strategy to understand pain points, collaborate with engineers in an Leadership framework, and coordinate rollouts. Effective Data Visualization and cross-squad Communication are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Lead,2026-05-27,linkedin
+lk-1000017,Lead ML Engineer,Tesla,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in SQL using frameworks like Docker and Deep Learning. MLOps is central to our pipeline, and you will use Python and PyTorch for containerization and orchestration, alongside Machine Learning for experiment tracking. Strong familiarity with MLflow and Kubernetes is required.
+
+Requirements:
+- Experience with SQL or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Lead,2026-05-26,linkedin
+lk-1000018,Lead Frontend Engineer,Shopify,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in JavaScript utilizing Redux and Figma. You will translate mockups from Next.js into responsive Git and HTML layouts, styled with REST API. Integrating with UI/UX is a core duty, and managing codebase version control is handled via React.
+
+Requirements:
+- Experience with TypeScript or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with HTML or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",On-site,Senior-level,2026-04-27,linkedin
+lk-1000019,Lead DevOps/SRE,AWS,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with Prometheus, manage container systems on Docker, and automate platform builds using Grafana on Terraform networks. Core tasks involve configuring continuous delivery pipelines via Kubernetes, managing repositories in Linux, and building dashboard visualizations in Git.
+
+Requirements:
+- Experience with Prometheus or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Senior-level,2026-04-14,linkedin
+lk-1000020,DevOps/SRE,Datadog,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Docker and Grafana. You will define Infrastructure as Code using CI/CD and orchestrate clusters using Terraform. Continuous delivery is powered by automated GCP. You will monitor ecosystem health with Prometheus and Kubernetes, ensuring stability on our production AWS environment.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with GCP or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Entry-level,2026-05-11,linkedin
+lk-1000021,Lead ML Engineer,Meta,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in PyTorch and structural software engineering. You will build scalable systems using TensorFlow, deploy using Python and MLflow, and manage infrastructure through CI/CD. Standard workflows include active Deep Learning and querying structured datasets via SQL.
+
+Requirements:
+- Experience with PyTorch or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Entry-level,2026-05-28,linkedin
+lk-1000022,Lead Frontend Engineer,Shopify,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using REST API and manage state with CSS. High proficiency in TailwindCSS and web core technologies like Next.js/UI/UX is a must. You will collaborate closely with designers on Figma patterns, leveraging HTML files, and pull data from dynamic JavaScript systems.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with Next.js or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Entry-level,2026-05-30,linkedin
+lk-1000023,Staff Backend Engineer,Dropbox,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Redis endpoints in MySQL (using Linux or Django). The infrastructure is powered by Git and cached with REST API. The system runs on AWS nodes containerized using FastAPI, with source control on Python.
+
+Requirements:
+- Experience with MySQL or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Lead,2026-04-15,linkedin
+lk-1000024,Product Manager,Google,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Leadership. The day-to-day includes aligning developers via Agile processes, drafting high-fidelity Product Strategy plans, and communicating product updates to customers. This role demands exceptional User Research and Roadmapping skills.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Lead,2026-04-15,linkedin
+lk-1000025,Senior DevOps/SRE,PagerDuty,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Linux and Terraform. You will define Infrastructure as Code using Grafana and orchestrate clusters using Kubernetes. Continuous delivery is powered by automated AWS. You will monitor ecosystem health with CI/CD and GCP, ensuring stability on our production Docker environment.
+
+Requirements:
+- Experience with Prometheus or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with AWS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Senior-level,2026-05-26,linkedin
+lk-1000026,Lead Product Manager,Notion,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Leadership. The day-to-day includes aligning developers via Agile processes, drafting high-fidelity Communication plans, and communicating product updates to customers. This role demands exceptional User Research and Roadmapping skills.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Lead,2026-03-26,linkedin
+lk-1000027,Staff Product Manager,Intercom,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Roadmapping. The day-to-day includes aligning developers via Communication processes, drafting high-fidelity Agile plans, and communicating product updates to customers. This role demands exceptional Product Strategy and Data Visualization skills.
+
+Requirements:
+- Experience with Leadership or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Mid-level,2026-04-30,linkedin
+lk-1000028,Senior DevOps/SRE,Datadog,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Kubernetes and Prometheus. You will define Infrastructure as Code using Terraform and orchestrate clusters using AWS. Continuous delivery is powered by automated CI/CD. You will monitor ecosystem health with GCP and Grafana, ensuring stability on our production Linux environment.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Terraform or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Hybrid,Entry-level,2026-03-07,linkedin
+lk-1000029,Backend Engineer,Stripe,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Redis endpoints in REST API (using MySQL or Django). The infrastructure is powered by Linux and cached with Git. The system runs on Docker nodes containerized using FastAPI, with source control on PostgreSQL.
+
+Requirements:
+- Experience with REST API or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Git or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Remote,Entry-level,2026-03-08,linkedin
+lk-1000030,Lead Backend Engineer,GitHub,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building AWS endpoints in PostgreSQL (using Git or Django). The infrastructure is powered by Docker and cached with MySQL. The system runs on Python nodes containerized using Redis, with source control on Linux.
+
+Requirements:
+- Experience with PostgreSQL or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with AWS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Lead,2026-05-22,linkedin
+lk-1000031,Senior Product Manager,Asana,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Communication. The day-to-day includes aligning developers via Roadmapping processes, drafting high-fidelity Product Strategy plans, and communicating product updates to customers. This role demands exceptional Data Visualization and Leadership skills.
+
+Requirements:
+- Experience with User Research or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Remote,Lead,2026-03-19,linkedin
+lk-1000032,Lead Product Manager,Google,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Roadmapping. The day-to-day includes aligning developers via Data Visualization processes, drafting high-fidelity Product Strategy plans, and communicating product updates to customers. This role demands exceptional Agile and Communication skills.
+
+Requirements:
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Entry-level,2026-04-24,linkedin
+lk-1000033,DevOps/SRE,PagerDuty,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Docker and AWS. You will define Infrastructure as Code using Grafana and orchestrate clusters using Git. Continuous delivery is powered by automated GCP. You will monitor ecosystem health with Prometheus and Kubernetes, ensuring stability on our production Terraform environment.
+
+Requirements:
+- Experience with Linux or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with GCP or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Lead,2026-03-05,linkedin
+lk-1000034,Lead Product Manager,Intercom,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Agile. The day-to-day includes aligning developers via Data Visualization processes, drafting high-fidelity Product Strategy plans, and communicating product updates to customers. This role demands exceptional Leadership and Communication skills.
+
+Requirements:
+- Experience with User Research or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Communication or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Senior-level,2026-03-08,linkedin
+lk-1000035,Staff Data Scientist,Netflix,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Communication and Statistics are required. You will leverage Pandas and NumPy for feature engineering, train classifiers using Machine Learning, and apply rigorous Data Visualization principles. Strong Python skills are essential to present insights to stakeholders, using tools for Scikit-Learn.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Entry-level,2026-03-30,linkedin
+lk-1000036,Senior ML Engineer,NVIDIA,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Docker using frameworks like Deep Learning and Python. MLOps is central to our pipeline, and you will use TensorFlow and Machine Learning for containerization and orchestration, alongside PyTorch for experiment tracking. Strong familiarity with Git and SQL is required.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with SQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Entry-level,2026-03-22,linkedin
+lk-1000037,Frontend Engineer,Linear,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in UI/UX utilizing TailwindCSS and Figma. You will translate mockups from Redux into responsive Next.js and JavaScript layouts, styled with HTML. Integrating with React is a core duty, and managing codebase version control is handled via Git.
+
+Requirements:
+- Experience with REST API or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Senior-level,2026-05-25,linkedin
+lk-1000038,Staff ML Engineer,Hugging Face,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in CI/CD and structural software engineering. You will build scalable systems using Git, deploy using Deep Learning and MLflow, and manage infrastructure through Docker. Standard workflows include active SQL and querying structured datasets via Python.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Entry-level,2026-04-12,linkedin
+lk-1000039,Staff Frontend Engineer,Shopify,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using Figma and manage state with React. High proficiency in Next.js and web core technologies like CSS/JavaScript is a must. You will collaborate closely with designers on Git patterns, leveraging HTML files, and pull data from dynamic REST API systems.
+
+Requirements:
+- Experience with Redux or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",On-site,Mid-level,2026-05-12,linkedin
+lk-1000040,Lead ML Engineer,Anthropic,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Docker using frameworks like CI/CD and Git. MLOps is central to our pipeline, and you will use Linux and Deep Learning for containerization and orchestration, alongside MLflow for experiment tracking. Strong familiarity with SQL and Machine Learning is required.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with SQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Senior-level,2026-04-10,linkedin
+lk-1000041,Senior Backend Engineer,Stripe,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building PostgreSQL endpoints in AWS (using Linux or Django). The infrastructure is powered by Docker and cached with Git. The system runs on Python nodes containerized using Redis, with source control on FastAPI.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Redis or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Mid-level,2026-03-26,linkedin
+lk-1000042,Staff Data Scientist,Airbnb,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in NumPy and Communication are required. You will leverage Pandas and Statistics for feature engineering, train classifiers using Scikit-Learn, and apply rigorous Machine Learning principles. Strong Data Visualization skills are essential to present insights to stakeholders, using tools for SQL.
+
+Requirements:
+- Experience with NumPy or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Mid-level,2026-03-03,linkedin
+lk-1000043,Lead Frontend Engineer,Shopify,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using Git and manage state with UI/UX. High proficiency in Figma and web core technologies like React/CSS is a must. You will collaborate closely with designers on TypeScript patterns, leveraging TailwindCSS files, and pull data from dynamic Redux systems.
+
+Requirements:
+- Experience with JavaScript or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with Next.js or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Entry-level,2026-03-08,linkedin
+lk-1000044,ML Engineer,Tesla,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in CI/CD using frameworks like Git and PyTorch. MLOps is central to our pipeline, and you will use Python and TensorFlow for containerization and orchestration, alongside SQL for experiment tracking. Strong familiarity with Kubernetes and Machine Learning is required.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Lead,2026-04-27,linkedin
+lk-1000045,Frontend Engineer,Vercel,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in Figma utilizing JavaScript and TypeScript. You will translate mockups from TailwindCSS into responsive Next.js and CSS layouts, styled with Git. Integrating with Redux is a core duty, and managing codebase version control is handled via UI/UX.
+
+Requirements:
+- Experience with REST API or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with Next.js or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Lead,2026-04-28,linkedin
+lk-1000046,Lead Frontend Engineer,Stripe,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in Next.js utilizing HTML and REST API. You will translate mockups from Git into responsive Redux and Figma layouts, styled with CSS. Integrating with UI/UX is a core duty, and managing codebase version control is handled via React.
+
+Requirements:
+- Experience with JavaScript or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Entry-level,2026-04-05,linkedin
+lk-1000047,ML Engineer,OpenAI,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in TensorFlow using frameworks like Kubernetes and SQL. MLOps is central to our pipeline, and you will use Machine Learning and Git for containerization and orchestration, alongside Python for experiment tracking. Strong familiarity with Docker and Deep Learning is required.
+
+Requirements:
+- Experience with TensorFlow or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Hybrid,Entry-level,2026-04-12,linkedin
+lk-1000048,ML Engineer,Tesla,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Docker using frameworks like Machine Learning and SQL. MLOps is central to our pipeline, and you will use Python and Kubernetes for containerization and orchestration, alongside Git for experiment tracking. Strong familiarity with Linux and PyTorch is required.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Lead,2026-03-13,linkedin
+lk-1000049,Staff Frontend Engineer,Shopify,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using TypeScript and manage state with TailwindCSS. High proficiency in UI/UX and web core technologies like Figma/Next.js is a must. You will collaborate closely with designers on REST API patterns, leveraging JavaScript files, and pull data from dynamic HTML systems.
+
+Requirements:
+- Experience with CSS or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with React or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Entry-level,2026-04-12,linkedin
+lk-1000050,Lead Product Manager,Google,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing User Research. The day-to-day includes aligning developers via Roadmapping processes, drafting high-fidelity Leadership plans, and communicating product updates to customers. This role demands exceptional Agile and Product Strategy skills.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Remote,Senior-level,2026-04-05,linkedin
+lk-1000051,Backend Engineer,Dropbox,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Git using FastAPI. Persistence is managed using relational databases like Python and caching is handled with Redis. You will package applications using AWS, expose them via standardized REST API, and deploy across Linux infrastructure. Collaborative development is run via MySQL.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Redis or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Lead,2026-03-17,linkedin
+lk-1000052,Product Manager,Atlassian,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Product Strategy. The day-to-day includes aligning developers via Data Visualization processes, drafting high-fidelity Roadmapping plans, and communicating product updates to customers. This role demands exceptional Leadership and User Research skills.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Mid-level,2026-03-26,linkedin
+lk-1000053,Staff ML Engineer,Tesla,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Kubernetes and structural software engineering. You will build scalable systems using CI/CD, deploy using Linux and Deep Learning, and manage infrastructure through Python. Standard workflows include active TensorFlow and querying structured datasets via Docker.
+
+Requirements:
+- Experience with Kubernetes or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Lead,2026-04-13,linkedin
+lk-1000054,Lead Backend Engineer,DoorDash,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Linux endpoints in Docker (using MySQL or Django). The infrastructure is powered by AWS and cached with Git. The system runs on PostgreSQL nodes containerized using FastAPI, with source control on Python.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Senior-level,2026-05-04,linkedin
+lk-1000055,ML Engineer,Anthropic,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Git and structural software engineering. You will build scalable systems using PyTorch, deploy using Deep Learning and Python, and manage infrastructure through Machine Learning. Standard workflows include active Docker and querying structured datasets via SQL.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Lead,2026-05-24,linkedin
+lk-1000056,Lead Frontend Engineer,Canva,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in Redux utilizing Git and JavaScript. You will translate mockups from Next.js into responsive TypeScript and Figma layouts, styled with CSS. Integrating with HTML is a core duty, and managing codebase version control is handled via TailwindCSS.
+
+Requirements:
+- Experience with UI/UX or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Entry-level,2026-05-29,linkedin
+lk-1000057,Frontend Engineer,Linear,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in HTML utilizing CSS and REST API. You will translate mockups from Git into responsive TailwindCSS and TypeScript layouts, styled with Redux. Integrating with React is a core duty, and managing codebase version control is handled via Next.js.
+
+Requirements:
+- Experience with JavaScript or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Lead,2026-05-20,linkedin
+lk-1000058,Senior DevOps/SRE,Datadog,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with AWS, manage container systems on GCP, and automate platform builds using Grafana on Git networks. Core tasks involve configuring continuous delivery pipelines via Prometheus, managing repositories in Terraform, and building dashboard visualizations in Kubernetes.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with GCP or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Terraform or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Senior-level,2026-04-27,linkedin
+lk-1000059,Product Manager,Atlassian,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Communication. The day-to-day includes aligning developers via Agile processes, drafting high-fidelity Data Visualization plans, and communicating product updates to customers. This role demands exceptional Product Strategy and User Research skills.
+
+Requirements:
+- Experience with Roadmapping or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Senior-level,2026-05-14,linkedin
+lk-1000060,Staff Product Manager,Notion,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing User Research. The day-to-day includes aligning developers via Roadmapping processes, drafting high-fidelity Data Visualization plans, and communicating product updates to customers. This role demands exceptional Communication and Leadership skills.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Leadership or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Senior-level,2026-03-30,linkedin
+lk-1000061,Staff Product Manager,Notion,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Communication. The day-to-day includes aligning developers via User Research processes, drafting high-fidelity Product Strategy plans, and communicating product updates to customers. This role demands exceptional Roadmapping and Agile skills.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Senior-level,2026-03-18,linkedin
+lk-1000062,Staff Product Manager,Intercom,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Roadmapping and manage the active Communication. In this role, you will conduct continuous User Research to understand pain points, collaborate with engineers in an Leadership framework, and coordinate rollouts. Effective Agile and cross-squad Data Visualization are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Lead,2026-04-14,linkedin
+lk-1000063,ML Engineer,NVIDIA,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in TensorFlow and structural software engineering. You will build scalable systems using Docker, deploy using Linux and MLflow, and manage infrastructure through Machine Learning. Standard workflows include active SQL and querying structured datasets via Git.
+
+Requirements:
+- Experience with TensorFlow or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Mid-level,2026-05-22,linkedin
+lk-1000064,Senior Backend Engineer,Dropbox,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Python using AWS. Persistence is managed using relational databases like Docker and caching is handled with FastAPI. You will package applications using Linux, expose them via standardized MySQL, and deploy across Git infrastructure. Collaborative development is run via PostgreSQL.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Entry-level,2026-04-09,linkedin
+lk-1000065,Data Scientist,Stripe,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Data Visualization and Pandas are required. You will leverage NumPy and Machine Learning for feature engineering, train classifiers using Communication, and apply rigorous Statistics principles. Strong Python skills are essential to present insights to stakeholders, using tools for SQL.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",On-site,Senior-level,2026-04-06,linkedin
+lk-1000066,Senior Data Scientist,Airbnb,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Data Visualization, write preprocessing pipelines in Communication with SQL, and construct models using Python and NumPy. You will interpret findings using advanced Statistics and communicate strategies via high-impact Scikit-Learn.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Statistics or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",On-site,Mid-level,2026-04-29,linkedin
+lk-1000067,Lead Product Manager,Notion,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Leadership and manage the active Data Visualization. In this role, you will conduct continuous Communication to understand pain points, collaborate with engineers in an Product Strategy framework, and coordinate rollouts. Effective User Research and cross-squad Roadmapping are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Remote,Senior-level,2026-05-16,linkedin
+lk-1000068,Lead Data Scientist,Uber,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Python and Scikit-Learn are required. You will leverage Machine Learning and SQL for feature engineering, train classifiers using Statistics, and apply rigorous Pandas principles. Strong NumPy skills are essential to present insights to stakeholders, using tools for Communication.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with SQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Mid-level,2026-05-16,linkedin
+lk-1000069,Staff Frontend Engineer,Vercel,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in React utilizing TailwindCSS and Git. You will translate mockups from UI/UX into responsive TypeScript and CSS layouts, styled with Figma. Integrating with Redux is a core duty, and managing codebase version control is handled via HTML.
+
+Requirements:
+- Experience with JavaScript or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with Next.js or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Entry-level,2026-04-29,linkedin
+lk-1000070,Staff Backend Engineer,GitHub,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in REST API using Linux. Persistence is managed using relational databases like FastAPI and caching is handled with Docker. You will package applications using AWS, expose them via standardized Python, and deploy across Git infrastructure. Collaborative development is run via Redis.
+
+Requirements:
+- Experience with REST API or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Senior-level,2026-04-19,linkedin
+lk-1000071,Backend Engineer,Zoom,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Git endpoints in AWS (using REST API or Django). The infrastructure is powered by FastAPI and cached with Docker. The system runs on Redis nodes containerized using Python, with source control on MySQL.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Senior-level,2026-04-24,linkedin
+lk-1000072,Staff Backend Engineer,DoorDash,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Python endpoints in Docker (using Redis or Django). The infrastructure is powered by Linux and cached with Git. The system runs on REST API nodes containerized using MySQL, with source control on AWS.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Remote,Senior-level,2026-03-18,linkedin
+lk-1000073,Lead Product Manager,Google,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing User Research. The day-to-day includes aligning developers via Agile processes, drafting high-fidelity Leadership plans, and communicating product updates to customers. This role demands exceptional Data Visualization and Communication skills.
+
+Requirements:
+- Experience with Product Strategy or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Mid-level,2026-03-21,linkedin
+lk-1000074,Staff ML Engineer,Anthropic,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in MLflow using frameworks like Linux and Deep Learning. MLOps is central to our pipeline, and you will use PyTorch and Kubernetes for containerization and orchestration, alongside Git for experiment tracking. Strong familiarity with Machine Learning and Docker is required.
+
+Requirements:
+- Experience with MLflow or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Git or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Mid-level,2026-04-14,linkedin
+lk-1000075,Lead Data Scientist,Uber,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with SQL, write preprocessing pipelines in Machine Learning with Communication, and construct models using Python and Pandas. You will interpret findings using advanced Scikit-Learn and communicate strategies via high-impact Data Visualization.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Pandas or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Senior-level,2026-04-18,linkedin
+lk-1000076,DevOps/SRE,PagerDuty,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with Grafana, manage container systems on Kubernetes, and automate platform builds using Linux on Docker networks. Core tasks involve configuring continuous delivery pipelines via Terraform, managing repositories in AWS, and building dashboard visualizations in CI/CD.
+
+Requirements:
+- Experience with Grafana or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with Git or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Entry-level,2026-04-24,linkedin
+lk-1000077,Staff Frontend Engineer,Shopify,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in TypeScript utilizing HTML and Redux. You will translate mockups from CSS into responsive REST API and JavaScript layouts, styled with UI/UX. Integrating with Git is a core duty, and managing codebase version control is handled via Figma.
+
+Requirements:
+- Experience with TailwindCSS or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Lead,2026-04-12,linkedin
+lk-1000078,Senior Product Manager,Figma,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Roadmapping and manage the active Data Visualization. In this role, you will conduct continuous User Research to understand pain points, collaborate with engineers in an Leadership framework, and coordinate rollouts. Effective Agile and cross-squad Product Strategy are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Communication or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Entry-level,2026-04-26,linkedin
+lk-1000079,Senior Frontend Engineer,Canva,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using Figma and manage state with Next.js. High proficiency in TailwindCSS and web core technologies like Git/React is a must. You will collaborate closely with designers on HTML patterns, leveraging Redux files, and pull data from dynamic TypeScript systems.
+
+Requirements:
+- Experience with REST API or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Lead,2026-04-02,linkedin
+lk-1000080,Lead DevOps/SRE,Cloudflare,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Terraform and CI/CD. You will define Infrastructure as Code using AWS and orchestrate clusters using Linux. Continuous delivery is powered by automated Grafana. You will monitor ecosystem health with GCP and Git, ensuring stability on our production Prometheus environment.
+
+Requirements:
+- Experience with Kubernetes or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Grafana or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Senior-level,2026-04-01,linkedin
+lk-1000081,Staff Data Scientist,Lyft,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Data Visualization, write preprocessing pipelines in Pandas with Machine Learning, and construct models using Python and Communication. You will interpret findings using advanced SQL and communicate strategies via high-impact Scikit-Learn.
+
+Requirements:
+- Experience with Pandas or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with NumPy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Lead,2026-05-21,linkedin
+lk-1000082,Staff ML Engineer,Hugging Face,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Git using frameworks like Deep Learning and Kubernetes. MLOps is central to our pipeline, and you will use SQL and Python for containerization and orchestration, alongside TensorFlow for experiment tracking. Strong familiarity with Linux and Machine Learning is required.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Lead,2026-03-11,linkedin
+lk-1000083,Staff Backend Engineer,Dropbox,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Linux using AWS. Persistence is managed using relational databases like Python and caching is handled with Redis. You will package applications using FastAPI, expose them via standardized PostgreSQL, and deploy across Docker infrastructure. Collaborative development is run via REST API.
+
+Requirements:
+- Experience with Linux or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Mid-level,2026-03-12,linkedin
+lk-1000084,Senior ML Engineer,Meta,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Docker and structural software engineering. You will build scalable systems using Git, deploy using Linux and TensorFlow, and manage infrastructure through CI/CD. Standard workflows include active MLflow and querying structured datasets via PyTorch.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Senior-level,2026-05-12,linkedin
+lk-1000085,Frontend Engineer,Linear,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in UI/UX utilizing REST API and React. You will translate mockups from TailwindCSS into responsive CSS and JavaScript layouts, styled with HTML. Integrating with Redux is a core duty, and managing codebase version control is handled via Git.
+
+Requirements:
+- Experience with Figma or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Hybrid,Mid-level,2026-05-23,linkedin
+lk-1000086,Lead Product Manager,Asana,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Leadership and manage the active Product Strategy. In this role, you will conduct continuous Data Visualization to understand pain points, collaborate with engineers in an Communication framework, and coordinate rollouts. Effective Agile and cross-squad User Research are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Leadership or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Mid-level,2026-03-29,linkedin
+lk-1000087,Lead Data Scientist,Airbnb,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Data Visualization, write preprocessing pipelines in Pandas with Python, and construct models using Machine Learning and Statistics. You will interpret findings using advanced Scikit-Learn and communicate strategies via high-impact NumPy.
+
+Requirements:
+- Experience with Pandas or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",On-site,Mid-level,2026-05-29,linkedin
+lk-1000088,Lead Product Manager,Atlassian,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing User Research. The day-to-day includes aligning developers via Data Visualization processes, drafting high-fidelity Agile plans, and communicating product updates to customers. This role demands exceptional Leadership and Communication skills.
+
+Requirements:
+- Experience with Roadmapping or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Hybrid,Mid-level,2026-04-10,linkedin
+lk-1000089,Frontend Engineer,Slack,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using Redux and manage state with Git. High proficiency in REST API and web core technologies like HTML/TailwindCSS is a must. You will collaborate closely with designers on React patterns, leveraging TypeScript files, and pull data from dynamic JavaScript systems.
+
+Requirements:
+- Experience with UI/UX or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with Figma or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Remote,Entry-level,2026-04-18,linkedin
+lk-1000090,Staff Frontend Engineer,Canva,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using HTML and manage state with JavaScript. High proficiency in React and web core technologies like UI/UX/TailwindCSS is a must. You will collaborate closely with designers on Git patterns, leveraging REST API files, and pull data from dynamic CSS systems.
+
+Requirements:
+- Experience with TypeScript or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with Redux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Senior-level,2026-04-01,linkedin
+lk-1000091,Data Scientist,Lyft,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Statistics, write preprocessing pipelines in Python with Data Visualization, and construct models using Pandas and Machine Learning. You will interpret findings using advanced SQL and communicate strategies via high-impact NumPy.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Pandas or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Remote,Entry-level,2026-04-28,linkedin
+lk-1000092,Senior ML Engineer,Tesla,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Kubernetes and structural software engineering. You will build scalable systems using Docker, deploy using Linux and CI/CD, and manage infrastructure through SQL. Standard workflows include active PyTorch and querying structured datasets via Git.
+
+Requirements:
+- Experience with Kubernetes or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Hybrid,Entry-level,2026-03-16,linkedin
+lk-1000093,Product Manager,Notion,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Product Strategy. The day-to-day includes aligning developers via User Research processes, drafting high-fidelity Leadership plans, and communicating product updates to customers. This role demands exceptional Agile and Roadmapping skills.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Entry-level,2026-03-25,linkedin
+lk-1000094,Lead DevOps/SRE,Cloudflare,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with CI/CD, manage container systems on Kubernetes, and automate platform builds using Linux on Docker networks. Core tasks involve configuring continuous delivery pipelines via Git, managing repositories in Prometheus, and building dashboard visualizations in Terraform.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with GCP or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Senior-level,2026-05-25,linkedin
+lk-1000095,Data Scientist,Lyft,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Python and Statistics are required. You will leverage Scikit-Learn and Pandas for feature engineering, train classifiers using SQL, and apply rigorous NumPy principles. Strong Machine Learning skills are essential to present insights to stakeholders, using tools for Data Visualization.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Pandas or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Entry-level,2026-03-06,linkedin
+lk-1000096,Staff Data Scientist,Netflix,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Statistics, write preprocessing pipelines in Python with Pandas, and construct models using NumPy and SQL. You will interpret findings using advanced Communication and communicate strategies via high-impact Machine Learning.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Communication or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Lead,2026-04-05,linkedin
+lk-1000097,Lead Backend Engineer,Zoom,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building PostgreSQL endpoints in Git (using REST API or Django). The infrastructure is powered by Docker and cached with MySQL. The system runs on Python nodes containerized using Linux, with source control on Redis.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Entry-level,2026-05-10,linkedin
+lk-1000098,Staff ML Engineer,Anthropic,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in MLflow and structural software engineering. You will build scalable systems using Machine Learning, deploy using SQL and Git, and manage infrastructure through Deep Learning. Standard workflows include active Docker and querying structured datasets via TensorFlow.
+
+Requirements:
+- Experience with MLflow or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with SQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Entry-level,2026-05-19,linkedin
+lk-1000099,ML Engineer,Meta,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Machine Learning using frameworks like Deep Learning and CI/CD. MLOps is central to our pipeline, and you will use MLflow and TensorFlow for containerization and orchestration, alongside Python for experiment tracking. Strong familiarity with PyTorch and Kubernetes is required.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",On-site,Mid-level,2026-05-13,linkedin
+lk-1000100,Staff Product Manager,Figma,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing User Research. The day-to-day includes aligning developers via Leadership processes, drafting high-fidelity Data Visualization plans, and communicating product updates to customers. This role demands exceptional Communication and Product Strategy skills.
+
+Requirements:
+- Experience with Roadmapping or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Communication or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Mid-level,2026-04-02,linkedin
+lk-1000101,Senior Backend Engineer,Stripe,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in AWS using REST API. Persistence is managed using relational databases like FastAPI and caching is handled with Linux. You will package applications using MySQL, expose them via standardized Git, and deploy across Redis infrastructure. Collaborative development is run via Docker.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-04-28,linkedin
+lk-1000102,ML Engineer,Google,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Machine Learning using frameworks like MLflow and Deep Learning. MLOps is central to our pipeline, and you will use PyTorch and Kubernetes for containerization and orchestration, alongside TensorFlow for experiment tracking. Strong familiarity with Linux and SQL is required.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Senior-level,2026-03-05,linkedin
+lk-1000103,Senior Backend Engineer,GitHub,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in AWS using PostgreSQL. Persistence is managed using relational databases like FastAPI and caching is handled with Linux. You will package applications using MySQL, expose them via standardized Redis, and deploy across Git infrastructure. Collaborative development is run via Docker.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Senior-level,2026-04-28,linkedin
+lk-1000104,Lead Data Scientist,Uber,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Data Visualization and Pandas are required. You will leverage Machine Learning and SQL for feature engineering, train classifiers using NumPy, and apply rigorous Python principles. Strong Communication skills are essential to present insights to stakeholders, using tools for Statistics.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with NumPy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Hybrid,Entry-level,2026-04-15,linkedin
+lk-1000105,Staff Frontend Engineer,Slack,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in UI/UX utilizing Git and HTML. You will translate mockups from TypeScript into responsive React and CSS layouts, styled with Redux. Integrating with TailwindCSS is a core duty, and managing codebase version control is handled via JavaScript.
+
+Requirements:
+- Experience with Next.js or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Entry-level,2026-05-13,linkedin
+lk-1000106,ML Engineer,Hugging Face,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Machine Learning and structural software engineering. You will build scalable systems using SQL, deploy using Docker and CI/CD, and manage infrastructure through MLflow. Standard workflows include active Python and querying structured datasets via TensorFlow.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Entry-level,2026-04-09,linkedin
+lk-1000107,Lead Data Scientist,Spotify,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Machine Learning, write preprocessing pipelines in Communication with NumPy, and construct models using SQL and Statistics. You will interpret findings using advanced Pandas and communicate strategies via high-impact Scikit-Learn.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Pandas or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Entry-level,2026-04-18,linkedin
+lk-1000108,Staff Frontend Engineer,Shopify,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in Redux utilizing TypeScript and HTML. You will translate mockups from Figma into responsive UI/UX and REST API layouts, styled with TailwindCSS. Integrating with CSS is a core duty, and managing codebase version control is handled via Git.
+
+Requirements:
+- Experience with Next.js or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Lead,2026-03-26,linkedin
+lk-1000109,Senior DevOps/SRE,Cloudflare,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Terraform and GCP. You will define Infrastructure as Code using Docker and orchestrate clusters using Grafana. Continuous delivery is powered by automated CI/CD. You will monitor ecosystem health with Kubernetes and Prometheus, ensuring stability on our production Linux environment.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with GCP or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with AWS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Lead,2026-03-08,linkedin
+lk-1000110,Lead Frontend Engineer,Linear,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in JavaScript utilizing TypeScript and TailwindCSS. You will translate mockups from HTML into responsive React and Redux layouts, styled with CSS. Integrating with REST API is a core duty, and managing codebase version control is handled via Next.js.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with Figma or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Hybrid,Entry-level,2026-04-17,linkedin
+lk-1000111,Staff Backend Engineer,Reddit,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Python endpoints in AWS (using Git or Django). The infrastructure is powered by Redis and cached with Linux. The system runs on FastAPI nodes containerized using Docker, with source control on MySQL.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-03-20,linkedin
+lk-1000112,Staff DevOps/SRE,AWS,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Prometheus and Kubernetes. You will define Infrastructure as Code using CI/CD and orchestrate clusters using Grafana. Continuous delivery is powered by automated AWS. You will monitor ecosystem health with Linux and Git, ensuring stability on our production GCP environment.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with AWS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Senior-level,2026-03-22,linkedin
+lk-1000113,Staff DevOps/SRE,AWS,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Git and Grafana. You will define Infrastructure as Code using Terraform and orchestrate clusters using Prometheus. Continuous delivery is powered by automated AWS. You will monitor ecosystem health with Kubernetes and Linux, ensuring stability on our production GCP environment.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with GCP or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Lead,2026-05-29,linkedin
+lk-1000114,Frontend Engineer,Vercel,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in REST API utilizing Figma and Next.js. You will translate mockups from TailwindCSS into responsive JavaScript and HTML layouts, styled with Git. Integrating with Redux is a core duty, and managing codebase version control is handled via CSS.
+
+Requirements:
+- Experience with UI/UX or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Lead,2026-04-11,linkedin
+lk-1000115,Product Manager,Asana,"We are seeking a Product Manager to lead a cross-functional squad. You will define the User Research and manage the active Leadership. In this role, you will conduct continuous Roadmapping to understand pain points, collaborate with engineers in an Communication framework, and coordinate rollouts. Effective Agile and cross-squad Product Strategy are mandatory to align stakeholders.
+
+Requirements:
+- Experience with User Research or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Mid-level,2026-05-08,linkedin
+lk-1000116,Staff Backend Engineer,GitHub,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building MySQL endpoints in AWS (using Docker or Django). The infrastructure is powered by Linux and cached with REST API. The system runs on FastAPI nodes containerized using PostgreSQL, with source control on Python.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-05-31,linkedin
+lk-1000117,Senior Frontend Engineer,Shopify,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using Git and manage state with UI/UX. High proficiency in CSS and web core technologies like REST API/JavaScript is a must. You will collaborate closely with designers on React patterns, leveraging TailwindCSS files, and pull data from dynamic TypeScript systems.
+
+Requirements:
+- Experience with Redux or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with HTML or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Senior-level,2026-04-15,linkedin
+lk-1000118,Lead Product Manager,Figma,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Roadmapping and manage the active Agile. In this role, you will conduct continuous User Research to understand pain points, collaborate with engineers in an Leadership framework, and coordinate rollouts. Effective Data Visualization and cross-squad Communication are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",On-site,Mid-level,2026-04-02,linkedin
+lk-1000119,Lead Product Manager,Notion,"We are seeking a Product Manager to lead a cross-functional squad. You will define the User Research and manage the active Roadmapping. In this role, you will conduct continuous Product Strategy to understand pain points, collaborate with engineers in an Leadership framework, and coordinate rollouts. Effective Data Visualization and cross-squad Agile are mandatory to align stakeholders.
+
+Requirements:
+- Experience with User Research or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Lead,2026-04-23,linkedin
+lk-1000120,Senior Product Manager,Figma,"We are seeking a Product Manager to lead a cross-functional squad. You will define the User Research and manage the active Communication. In this role, you will conduct continuous Agile to understand pain points, collaborate with engineers in an Leadership framework, and coordinate rollouts. Effective Roadmapping and cross-squad Product Strategy are mandatory to align stakeholders.
+
+Requirements:
+- Experience with User Research or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Entry-level,2026-03-24,linkedin
+lk-1000121,Backend Engineer,Reddit,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Docker endpoints in Git (using PostgreSQL or Django). The infrastructure is powered by Redis and cached with REST API. The system runs on MySQL nodes containerized using AWS, with source control on FastAPI.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Remote,Senior-level,2026-04-05,linkedin
+lk-1000122,Staff Data Scientist,Stripe,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Scikit-Learn, write preprocessing pipelines in Communication with Statistics, and construct models using Python and Machine Learning. You will interpret findings using advanced Pandas and communicate strategies via high-impact NumPy.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Entry-level,2026-03-13,linkedin
+lk-1000123,Senior Data Scientist,Uber,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Communication, write preprocessing pipelines in Pandas with Data Visualization, and construct models using Python and Statistics. You will interpret findings using advanced Machine Learning and communicate strategies via high-impact NumPy.
+
+Requirements:
+- Experience with Pandas or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Mid-level,2026-04-04,linkedin
+lk-1000124,Lead ML Engineer,Google,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Machine Learning and structural software engineering. You will build scalable systems using PyTorch, deploy using Kubernetes and TensorFlow, and manage infrastructure through MLflow. Standard workflows include active Linux and querying structured datasets via CI/CD.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Lead,2026-03-19,linkedin
+lk-1000125,Staff Product Manager,Intercom,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Communication and manage the active Data Visualization. In this role, you will conduct continuous Agile to understand pain points, collaborate with engineers in an Roadmapping framework, and coordinate rollouts. Effective Leadership and cross-squad Product Strategy are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Remote,Entry-level,2026-03-11,linkedin
+lk-1000126,Senior DevOps/SRE,PagerDuty,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on AWS and Kubernetes. You will define Infrastructure as Code using Git and orchestrate clusters using GCP. Continuous delivery is powered by automated Terraform. You will monitor ecosystem health with CI/CD and Linux, ensuring stability on our production Grafana environment.
+
+Requirements:
+- Experience with Prometheus or equivalent technologies
+- Experience with GCP or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-04-29,linkedin
+lk-1000127,Staff Backend Engineer,Zoom,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Linux using Python. Persistence is managed using relational databases like Git and caching is handled with PostgreSQL. You will package applications using AWS, expose them via standardized MySQL, and deploy across Redis infrastructure. Collaborative development is run via FastAPI.
+
+Requirements:
+- Experience with Linux or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",On-site,Entry-level,2026-05-30,linkedin
+lk-1000128,Lead ML Engineer,Anthropic,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Git and structural software engineering. You will build scalable systems using Python, deploy using CI/CD and TensorFlow, and manage infrastructure through PyTorch. Standard workflows include active Docker and querying structured datasets via MLflow.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Hybrid,Entry-level,2026-05-24,linkedin
+lk-1000129,Lead Data Scientist,Spotify,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Machine Learning, write preprocessing pipelines in Data Visualization with Scikit-Learn, and construct models using Statistics and NumPy. You will interpret findings using advanced Python and communicate strategies via high-impact Pandas.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Communication or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Mid-level,2026-04-02,linkedin
+lk-1000130,Senior Frontend Engineer,Slack,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in TypeScript utilizing JavaScript and TailwindCSS. You will translate mockups from CSS into responsive REST API and UI/UX layouts, styled with Git. Integrating with React is a core duty, and managing codebase version control is handled via HTML.
+
+Requirements:
+- Experience with Next.js or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Mid-level,2026-04-22,linkedin
+lk-1000131,Senior ML Engineer,Meta,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in TensorFlow and structural software engineering. You will build scalable systems using Linux, deploy using Docker and MLflow, and manage infrastructure through CI/CD. Standard workflows include active Deep Learning and querying structured datasets via Machine Learning.
+
+Requirements:
+- Experience with TensorFlow or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with SQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Mid-level,2026-05-12,linkedin
+lk-1000132,Lead Product Manager,Intercom,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Agile. The day-to-day includes aligning developers via Communication processes, drafting high-fidelity Data Visualization plans, and communicating product updates to customers. This role demands exceptional User Research and Product Strategy skills.
+
+Requirements:
+- Experience with Leadership or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Agile or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Lead,2026-04-09,linkedin
+lk-1000133,Staff Data Scientist,Airbnb,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in NumPy and Scikit-Learn are required. You will leverage Machine Learning and Statistics for feature engineering, train classifiers using SQL, and apply rigorous Data Visualization principles. Strong Communication skills are essential to present insights to stakeholders, using tools for Pandas.
+
+Requirements:
+- Experience with NumPy or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Entry-level,2026-03-28,linkedin
+lk-1000134,Staff Backend Engineer,GitHub,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building REST API endpoints in Docker (using FastAPI or Django). The infrastructure is powered by MySQL and cached with PostgreSQL. The system runs on AWS nodes containerized using Git, with source control on Redis.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Remote,Entry-level,2026-03-03,linkedin
+lk-1000135,Staff Product Manager,Intercom,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Agile. The day-to-day includes aligning developers via User Research processes, drafting high-fidelity Communication plans, and communicating product updates to customers. This role demands exceptional Product Strategy and Leadership skills.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Agile or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Lead,2026-04-10,linkedin
+lk-1000136,Backend Engineer,Reddit,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in FastAPI using Git. Persistence is managed using relational databases like Docker and caching is handled with PostgreSQL. You will package applications using AWS, expose them via standardized MySQL, and deploy across Redis infrastructure. Collaborative development is run via Python.
+
+Requirements:
+- Experience with FastAPI or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with AWS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Remote,Senior-level,2026-04-08,linkedin
+lk-1000137,Lead Data Scientist,Airbnb,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Machine Learning and NumPy are required. You will leverage Communication and Scikit-Learn for feature engineering, train classifiers using Pandas, and apply rigorous Statistics principles. Strong Data Visualization skills are essential to present insights to stakeholders, using tools for Python.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Statistics or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Entry-level,2026-05-10,linkedin
+lk-1000138,DevOps/SRE,Datadog,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Grafana and Linux. You will define Infrastructure as Code using Git and orchestrate clusters using Kubernetes. Continuous delivery is powered by automated GCP. You will monitor ecosystem health with CI/CD and Terraform, ensuring stability on our production Prometheus environment.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",On-site,Lead,2026-04-18,linkedin
+lk-1000139,Product Manager,Notion,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing User Research. The day-to-day includes aligning developers via Leadership processes, drafting high-fidelity Data Visualization plans, and communicating product updates to customers. This role demands exceptional Agile and Communication skills.
+
+Requirements:
+- Experience with Roadmapping or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Mid-level,2026-03-24,linkedin
+lk-1000140,Lead Data Scientist,Airbnb,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Scikit-Learn, write preprocessing pipelines in NumPy with Machine Learning, and construct models using Statistics and Python. You will interpret findings using advanced Data Visualization and communicate strategies via high-impact Communication.
+
+Requirements:
+- Experience with NumPy or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with SQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Entry-level,2026-04-09,linkedin
+lk-1000141,Senior ML Engineer,Hugging Face,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in CI/CD and structural software engineering. You will build scalable systems using Deep Learning, deploy using Linux and Git, and manage infrastructure through MLflow. Standard workflows include active SQL and querying structured datasets via Kubernetes.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with SQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Mid-level,2026-05-08,linkedin
+lk-1000142,Lead Product Manager,Google,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Communication and manage the active Product Strategy. In this role, you will conduct continuous Roadmapping to understand pain points, collaborate with engineers in an Agile framework, and coordinate rollouts. Effective Leadership and cross-squad User Research are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-05-16,linkedin
+lk-1000143,ML Engineer,OpenAI,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Kubernetes and structural software engineering. You will build scalable systems using TensorFlow, deploy using Docker and CI/CD, and manage infrastructure through Deep Learning. Standard workflows include active Machine Learning and querying structured datasets via Git.
+
+Requirements:
+- Experience with Kubernetes or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Senior-level,2026-03-31,linkedin
+lk-1000144,DevOps/SRE,Datadog,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with Grafana, manage container systems on Linux, and automate platform builds using Git on CI/CD networks. Core tasks involve configuring continuous delivery pipelines via AWS, managing repositories in Kubernetes, and building dashboard visualizations in Terraform.
+
+Requirements:
+- Experience with Grafana or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with GCP or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",On-site,Senior-level,2026-03-12,linkedin
+lk-1000145,Senior Data Scientist,Netflix,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Data Visualization, write preprocessing pipelines in SQL with Pandas, and construct models using NumPy and Machine Learning. You will interpret findings using advanced Statistics and communicate strategies via high-impact Python.
+
+Requirements:
+- Experience with SQL or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Communication or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Senior-level,2026-04-10,linkedin
+lk-1000146,Staff ML Engineer,OpenAI,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in TensorFlow and structural software engineering. You will build scalable systems using PyTorch, deploy using CI/CD and Git, and manage infrastructure through Linux. Standard workflows include active MLflow and querying structured datasets via Python.
+
+Requirements:
+- Experience with TensorFlow or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with MLflow or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Lead,2026-04-20,linkedin
+lk-1000147,Lead Backend Engineer,Zoom,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Git endpoints in FastAPI (using AWS or Django). The infrastructure is powered by MySQL and cached with REST API. The system runs on Docker nodes containerized using Linux, with source control on Python.
+
+Requirements:
+- Experience with FastAPI or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Hybrid,Senior-level,2026-03-10,linkedin
+lk-1000148,Senior Backend Engineer,GitHub,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Redis using Git. Persistence is managed using relational databases like FastAPI and caching is handled with REST API. You will package applications using AWS, expose them via standardized MySQL, and deploy across Python infrastructure. Collaborative development is run via Docker.
+
+Requirements:
+- Experience with Redis or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Lead,2026-04-21,linkedin
+lk-1000149,Frontend Engineer,Slack,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using TailwindCSS and manage state with TypeScript. High proficiency in CSS and web core technologies like HTML/Git is a must. You will collaborate closely with designers on JavaScript patterns, leveraging REST API files, and pull data from dynamic UI/UX systems.
+
+Requirements:
+- Experience with Redux or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with Git or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Senior-level,2026-05-14,linkedin
+lk-1000150,Senior Backend Engineer,GitHub,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Redis using REST API. Persistence is managed using relational databases like Docker and caching is handled with Linux. You will package applications using FastAPI, expose them via standardized Git, and deploy across AWS infrastructure. Collaborative development is run via PostgreSQL.
+
+Requirements:
+- Experience with Redis or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Git or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Mid-level,2026-04-23,linkedin
+lk-1000151,Product Manager,Notion,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Agile and manage the active Leadership. In this role, you will conduct continuous User Research to understand pain points, collaborate with engineers in an Data Visualization framework, and coordinate rollouts. Effective Communication and cross-squad Roadmapping are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Lead,2026-05-15,linkedin
+lk-1000152,Senior DevOps/SRE,HashiCorp,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with Docker, manage container systems on CI/CD, and automate platform builds using Git on Kubernetes networks. Core tasks involve configuring continuous delivery pipelines via AWS, managing repositories in Terraform, and building dashboard visualizations in GCP.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Grafana or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Mid-level,2026-03-14,linkedin
+lk-1000153,Senior Backend Engineer,Zoom,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Docker using REST API. Persistence is managed using relational databases like Git and caching is handled with Linux. You will package applications using Redis, expose them via standardized FastAPI, and deploy across Python infrastructure. Collaborative development is run via MySQL.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Redis or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",On-site,Mid-level,2026-03-16,linkedin
+lk-1000154,Senior Frontend Engineer,Vercel,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in CSS utilizing Redux and Next.js. You will translate mockups from Figma into responsive REST API and React layouts, styled with Git. Integrating with TailwindCSS is a core duty, and managing codebase version control is handled via UI/UX.
+
+Requirements:
+- Experience with HTML or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with React or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Hybrid,Entry-level,2026-03-04,linkedin
+lk-1000155,Product Manager,Atlassian,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Roadmapping. The day-to-day includes aligning developers via Leadership processes, drafting high-fidelity Communication plans, and communicating product updates to customers. This role demands exceptional Product Strategy and Agile skills.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Remote,Lead,2026-05-21,linkedin
+lk-1000156,Senior Backend Engineer,Reddit,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Linux endpoints in Python (using MySQL or Django). The infrastructure is powered by Git and cached with AWS. The system runs on FastAPI nodes containerized using Docker, with source control on PostgreSQL.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Redis or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Hybrid,Senior-level,2026-05-09,linkedin
+lk-1000157,Data Scientist,Uber,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Communication and SQL are required. You will leverage Pandas and Statistics for feature engineering, train classifiers using NumPy, and apply rigorous Machine Learning principles. Strong Data Visualization skills are essential to present insights to stakeholders, using tools for Python.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Senior-level,2026-05-20,linkedin
+lk-1000158,DevOps/SRE,PagerDuty,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on AWS and Git. You will define Infrastructure as Code using Docker and orchestrate clusters using Kubernetes. Continuous delivery is powered by automated Prometheus. You will monitor ecosystem health with GCP and Terraform, ensuring stability on our production Linux environment.
+
+Requirements:
+- Experience with Grafana or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-05-17,linkedin
+lk-1000159,Staff Backend Engineer,Dropbox,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building AWS endpoints in PostgreSQL (using Git or Django). The infrastructure is powered by Linux and cached with FastAPI. The system runs on Docker nodes containerized using MySQL, with source control on Python.
+
+Requirements:
+- Experience with PostgreSQL or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Mid-level,2026-03-03,linkedin
+lk-1000160,Senior Backend Engineer,Reddit,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in AWS using Linux. Persistence is managed using relational databases like Git and caching is handled with Docker. You will package applications using REST API, expose them via standardized Redis, and deploy across FastAPI infrastructure. Collaborative development is run via PostgreSQL.
+
+Requirements:
+- Experience with AWS or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with MySQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Senior-level,2026-03-30,linkedin
+lk-1000161,Senior Data Scientist,Uber,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Scikit-Learn, write preprocessing pipelines in Data Visualization with SQL, and construct models using Communication and Pandas. You will interpret findings using advanced Statistics and communicate strategies via high-impact Machine Learning.
+
+Requirements:
+- Experience with Data Visualization or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Python or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Remote,Lead,2026-04-27,linkedin
+lk-1000162,Staff ML Engineer,Anthropic,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Deep Learning using frameworks like Machine Learning and Docker. MLOps is central to our pipeline, and you will use Kubernetes and Python for containerization and orchestration, alongside SQL for experiment tracking. Strong familiarity with TensorFlow and MLflow is required.
+
+Requirements:
+- Experience with Deep Learning or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with MLflow or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Lead,2026-05-31,linkedin
+lk-1000163,Staff Data Scientist,Uber,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with NumPy, write preprocessing pipelines in Pandas with Machine Learning, and construct models using Python and Communication. You will interpret findings using advanced Data Visualization and communicate strategies via high-impact Scikit-Learn.
+
+Requirements:
+- Experience with Pandas or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Mid-level,2026-05-06,linkedin
+lk-1000164,Staff Backend Engineer,Stripe,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building AWS endpoints in Python (using Redis or Django). The infrastructure is powered by PostgreSQL and cached with FastAPI. The system runs on Linux nodes containerized using REST API, with source control on Git.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with AWS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Lead,2026-05-21,linkedin
+lk-1000165,Senior ML Engineer,Hugging Face,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Machine Learning and structural software engineering. You will build scalable systems using PyTorch, deploy using Linux and Kubernetes, and manage infrastructure through TensorFlow. Standard workflows include active Docker and querying structured datasets via Deep Learning.
+
+Requirements:
+- Experience with Machine Learning or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with MLflow or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Lead,2026-05-09,linkedin
+lk-1000166,Data Scientist,Netflix,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Communication and Scikit-Learn are required. You will leverage Pandas and Machine Learning for feature engineering, train classifiers using Statistics, and apply rigorous SQL principles. Strong NumPy skills are essential to present insights to stakeholders, using tools for Python.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Lead,2026-03-04,linkedin
+lk-1000167,Lead Backend Engineer,GitHub,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building AWS endpoints in Python (using REST API or Django). The infrastructure is powered by MySQL and cached with FastAPI. The system runs on Redis nodes containerized using PostgreSQL, with source control on Git.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Senior-level,2026-03-08,linkedin
+lk-1000168,Lead Product Manager,Google,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Leadership and manage the active Product Strategy. In this role, you will conduct continuous User Research to understand pain points, collaborate with engineers in an Roadmapping framework, and coordinate rollouts. Effective Agile and cross-squad Communication are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Leadership or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-05-16,linkedin
+lk-1000169,Lead ML Engineer,Meta,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Python and structural software engineering. You will build scalable systems using MLflow, deploy using CI/CD and TensorFlow, and manage infrastructure through Deep Learning. Standard workflows include active SQL and querying structured datasets via Machine Learning.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with MLflow or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Mid-level,2026-04-19,linkedin
+lk-1000170,Senior ML Engineer,Google,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in Linux using frameworks like SQL and Python. MLOps is central to our pipeline, and you will use TensorFlow and Git for containerization and orchestration, alongside Deep Learning for experiment tracking. Strong familiarity with MLflow and PyTorch is required.
+
+Requirements:
+- Experience with Linux or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Senior-level,2026-05-16,linkedin
+lk-1000171,Lead Backend Engineer,Reddit,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building FastAPI endpoints in Docker (using PostgreSQL or Django). The infrastructure is powered by MySQL and cached with Linux. The system runs on Redis nodes containerized using Python, with source control on REST API.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Linux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",On-site,Entry-level,2026-04-21,linkedin
+lk-1000172,Data Scientist,Spotify,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Machine Learning, write preprocessing pipelines in Communication with Python, and construct models using NumPy and Pandas. You will interpret findings using advanced Data Visualization and communicate strategies via high-impact Statistics.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with NumPy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Mid-level,2026-04-17,linkedin
+lk-1000173,Backend Engineer,DoorDash,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building REST API endpoints in FastAPI (using Python or Django). The infrastructure is powered by Linux and cached with PostgreSQL. The system runs on Docker nodes containerized using Git, with source control on MySQL.
+
+Requirements:
+- Experience with FastAPI or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with REST API or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Mid-level,2026-03-12,linkedin
+lk-1000174,Lead Frontend Engineer,Vercel,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using Figma and manage state with UI/UX. High proficiency in HTML and web core technologies like Next.js/TailwindCSS is a must. You will collaborate closely with designers on JavaScript patterns, leveraging Redux files, and pull data from dynamic CSS systems.
+
+Requirements:
+- Experience with TypeScript or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with Figma or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Next.js or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Lead,2026-03-13,linkedin
+lk-1000175,Staff DevOps/SRE,Cloudflare,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Terraform and CI/CD. You will define Infrastructure as Code using Linux and orchestrate clusters using Docker. Continuous delivery is powered by automated Kubernetes. You will monitor ecosystem health with AWS and Git, ensuring stability on our production Prometheus environment.
+
+Requirements:
+- Experience with Grafana or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Remote,Senior-level,2026-03-23,linkedin
+lk-1000176,Staff Product Manager,Intercom,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Product Strategy and manage the active Roadmapping. In this role, you will conduct continuous Data Visualization to understand pain points, collaborate with engineers in an Agile framework, and coordinate rollouts. Effective User Research and cross-squad Leadership are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Product Strategy or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Agile or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Mid-level,2026-03-09,linkedin
+lk-1000177,Lead Frontend Engineer,Canva,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using TypeScript and manage state with JavaScript. High proficiency in HTML and web core technologies like Next.js/CSS is a must. You will collaborate closely with designers on Figma patterns, leveraging Git files, and pull data from dynamic Redux systems.
+
+Requirements:
+- Experience with React or equivalent technologies
+- Experience with HTML or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with CSS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Lead,2026-03-24,linkedin
+lk-1000178,Senior Data Scientist,Airbnb,"Join our Data Science team to drive decisions across our consumer products. You will formulate hypotheses, design A/B tests, and build predictive models. Excellent coding skills in Statistics and NumPy are required. You will leverage Communication and Data Visualization for feature engineering, train classifiers using Pandas, and apply rigorous Scikit-Learn principles. Strong SQL skills are essential to present insights to stakeholders, using tools for Machine Learning.
+
+Requirements:
+- Experience with Statistics or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Pandas or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Senior-level,2026-04-22,linkedin
+lk-1000179,Lead Frontend Engineer,Canva,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using Git and manage state with TailwindCSS. High proficiency in TypeScript and web core technologies like JavaScript/React is a must. You will collaborate closely with designers on REST API patterns, leveraging Figma files, and pull data from dynamic Next.js systems.
+
+Requirements:
+- Experience with CSS or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Redux or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+- Experience with React or equivalent technologies
+- Experience with UI/UX or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Chicago, IL",Remote,Mid-level,2026-05-10,linkedin
+lk-1000180,Lead ML Engineer,NVIDIA,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in CI/CD using frameworks like Python and Docker. MLOps is central to our pipeline, and you will use Linux and MLflow for containerization and orchestration, alongside Git for experiment tracking. Strong familiarity with Deep Learning and Machine Learning is required.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with MLflow or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Mid-level,2026-04-24,linkedin
+lk-1000181,Senior Product Manager,Notion,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Communication. The day-to-day includes aligning developers via Leadership processes, drafting high-fidelity User Research plans, and communicating product updates to customers. This role demands exceptional Roadmapping and Data Visualization skills.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Leadership or equivalent technologies
+- Experience with User Research or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Lead,2026-05-05,linkedin
+lk-1000182,Senior ML Engineer,Google,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in SQL and structural software engineering. You will build scalable systems using Deep Learning, deploy using CI/CD and TensorFlow, and manage infrastructure through Git. Standard workflows include active MLflow and querying structured datasets via Linux.
+
+Requirements:
+- Experience with SQL or equivalent technologies
+- Experience with Deep Learning or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Entry-level,2026-03-27,linkedin
+lk-1000183,Staff Data Scientist,Spotify,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Pandas, write preprocessing pipelines in SQL with NumPy, and construct models using Communication and Python. You will interpret findings using advanced Statistics and communicate strategies via high-impact Scikit-Learn.
+
+Requirements:
+- Experience with SQL or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with NumPy or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Statistics or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Remote,Senior-level,2026-03-17,linkedin
+lk-1000184,Senior Product Manager,Intercom,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Leadership and manage the active User Research. In this role, you will conduct continuous Communication to understand pain points, collaborate with engineers in an Product Strategy framework, and coordinate rollouts. Effective Roadmapping and cross-squad Data Visualization are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Leadership or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Mid-level,2026-05-27,linkedin
+lk-1000185,ML Engineer,Google,"We are seeking an experienced ML Engineer to join our AI team. In this role, you will design, train, and deploy large-scale deep learning models. You'll write clean code in CI/CD using frameworks like Git and Linux. MLOps is central to our pipeline, and you will use SQL and Docker for containerization and orchestration, alongside Python for experiment tracking. Strong familiarity with Machine Learning and Deep Learning is required.
+
+Requirements:
+- Experience with CI/CD or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Entry-level,2026-04-18,linkedin
+lk-1000186,Senior DevOps/SRE,PagerDuty,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Kubernetes and Docker. You will define Infrastructure as Code using Linux and orchestrate clusters using Terraform. Continuous delivery is powered by automated Git. You will monitor ecosystem health with AWS and Prometheus, ensuring stability on our production GCP environment.
+
+Requirements:
+- Experience with Grafana or equivalent technologies
+- Experience with Terraform or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",Hybrid,Lead,2026-03-23,linkedin
+lk-1000187,Lead Backend Engineer,Reddit,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Python using REST API. Persistence is managed using relational databases like AWS and caching is handled with PostgreSQL. You will package applications using Git, expose them via standardized Redis, and deploy across Docker infrastructure. Collaborative development is run via MySQL.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with REST API or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Seattle, WA",Hybrid,Lead,2026-05-23,linkedin
+lk-1000188,DevOps/SRE,PagerDuty,"Our Site Reliability Engineering team is looking for an engineer to champion automation. You will containerize applications with Git, manage container systems on Docker, and automate platform builds using GCP on Kubernetes networks. Core tasks involve configuring continuous delivery pipelines via Grafana, managing repositories in Prometheus, and building dashboard visualizations in Terraform.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Kubernetes or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with GCP or equivalent technologies
+- Experience with Grafana or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Boston, MA",On-site,Senior-level,2026-04-15,linkedin
+lk-1000189,Lead Backend Engineer,Stripe,"Our Core Platform team is looking for a Backend Systems Developer. You will write robust, low-latency APIs. You should have strong experience building Git endpoints in Redis (using PostgreSQL or Django). The infrastructure is powered by Python and cached with Linux. The system runs on REST API nodes containerized using FastAPI, with source control on Docker.
+
+Requirements:
+- Experience with Redis or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Docker or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",On-site,Mid-level,2026-03-14,linkedin
+lk-1000190,Lead Frontend Engineer,Linear,"We are looking for a creative Frontend Engineer who loves building stunning user experiences. You will own client-side applications written in JavaScript utilizing Next.js and TailwindCSS. You will translate mockups from UI/UX into responsive CSS and Figma layouts, styled with TypeScript. Integrating with React is a core duty, and managing codebase version control is handled via HTML.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with JavaScript or equivalent technologies
+- Experience with Next.js or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with CSS or equivalent technologies
+- Experience with Figma or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","New York, NY",Hybrid,Senior-level,2026-05-13,linkedin
+lk-1000191,Lead Data Scientist,Airbnb,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Python, write preprocessing pipelines in Communication with Data Visualization, and construct models using SQL and Statistics. You will interpret findings using advanced Scikit-Learn and communicate strategies via high-impact Pandas.
+
+Requirements:
+- Experience with Communication or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Scikit-Learn or equivalent technologies
+- Experience with Statistics or equivalent technologies
+- Experience with NumPy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Senior-level,2026-04-14,linkedin
+lk-1000192,Lead ML Engineer,Meta,"Our Core AI Infrastructure team is looking for a Machine Learning Engineer. You will work on productionizing NLP and computer vision systems. The role demands deep expertise in Python and structural software engineering. You will build scalable systems using TensorFlow, deploy using Machine Learning and PyTorch, and manage infrastructure through Kubernetes. Standard workflows include active Linux and querying structured datasets via Git.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with TensorFlow or equivalent technologies
+- Experience with SQL or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with PyTorch or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Hybrid,Lead,2026-03-22,linkedin
+lk-1000193,Lead Product Manager,Atlassian,"Join us as a Product Manager for our Growth team. You will drive feature adoption. You will define product metrics and analyze behavior utilizing Leadership. The day-to-day includes aligning developers via Communication processes, drafting high-fidelity Data Visualization plans, and communicating product updates to customers. This role demands exceptional Roadmapping and Product Strategy skills.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+- Experience with Roadmapping or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Lead,2026-03-02,linkedin
+lk-1000194,Staff DevOps/SRE,Cloudflare,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on CI/CD and Linux. You will define Infrastructure as Code using Terraform and orchestrate clusters using AWS. Continuous delivery is powered by automated Kubernetes. You will monitor ecosystem health with GCP and Prometheus, ensuring stability on our production Grafana environment.
+
+Requirements:
+- Experience with Docker or equivalent technologies
+- Experience with AWS or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with Terraform or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,Remote,Senior-level,2026-03-23,linkedin
+lk-1000195,Backend Engineer,Zoom,"We are seeking a Backend Engineer to scale our transactional systems. You will build high-performance services in Python using Redis. Persistence is managed using relational databases like MySQL and caching is handled with Docker. You will package applications using Linux, expose them via standardized PostgreSQL, and deploy across AWS infrastructure. Collaborative development is run via REST API.
+
+Requirements:
+- Experience with Python or equivalent technologies
+- Experience with Redis or equivalent technologies
+- Experience with MySQL or equivalent technologies
+- Experience with FastAPI or equivalent technologies
+- Experience with Docker or equivalent technologies
+- Experience with Linux or equivalent technologies
+- Experience with PostgreSQL or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Hybrid,Lead,2026-03-23,linkedin
+lk-1000196,Staff Frontend Engineer,Vercel,"Our Product Experience team has an opening for a Frontend Developer. You will build interactive components using TypeScript and manage state with JavaScript. High proficiency in TailwindCSS and web core technologies like Next.js/REST API is a must. You will collaborate closely with designers on CSS patterns, leveraging React files, and pull data from dynamic UI/UX systems.
+
+Requirements:
+- Experience with Git or equivalent technologies
+- Experience with TailwindCSS or equivalent technologies
+- Experience with TypeScript or equivalent technologies
+- Experience with Redux or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",Remote,Entry-level,2026-03-23,linkedin
+lk-1000197,Lead DevOps/SRE,Cloudflare,"We are hiring a DevOps Engineer to automate and scale our cloud infrastructure. You will manage robust deployments on Git and Prometheus. You will define Infrastructure as Code using Docker and orchestrate clusters using CI/CD. Continuous delivery is powered by automated GCP. You will monitor ecosystem health with Terraform and Linux, ensuring stability on our production Grafana environment.
+
+Requirements:
+- Experience with Kubernetes or equivalent technologies
+- Experience with CI/CD or equivalent technologies
+- Experience with Git or equivalent technologies
+- Experience with Prometheus or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","Austin, TX",On-site,Senior-level,2026-03-26,linkedin
+lk-1000198,Senior Product Manager,Asana,"We are seeking a Product Manager to lead a cross-functional squad. You will define the Agile and manage the active Product Strategy. In this role, you will conduct continuous Data Visualization to understand pain points, collaborate with engineers in an User Research framework, and coordinate rollouts. Effective Roadmapping and cross-squad Communication are mandatory to align stakeholders.
+
+Requirements:
+- Experience with Agile or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with User Research or equivalent technologies
+- Experience with Product Strategy or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule","San Francisco, CA",Hybrid,Lead,2026-04-25,linkedin
+lk-1000199,Staff Data Scientist,Spotify,"We are hiring a Senior Data Scientist to analyze complex user behavioral datasets. This role requires a balance of statistical expertise and hands-on engineering. You will query massive tables with Python, write preprocessing pipelines in SQL with Data Visualization, and construct models using Pandas and Statistics. You will interpret findings using advanced Communication and communicate strategies via high-impact Scikit-Learn.
+
+Requirements:
+- Experience with SQL or equivalent technologies
+- Experience with Python or equivalent technologies
+- Experience with Data Visualization or equivalent technologies
+- Experience with Machine Learning or equivalent technologies
+- Experience with Pandas or equivalent technologies
+- Experience with Communication or equivalent technologies
+- Experience with Statistics or equivalent technologies
+
+Benefits:
+- Competitive salary & equity
+- Health, dental, and vision insurance
+- Flexible work schedule",Remote,On-site,Lead,2026-03-13,linkedin

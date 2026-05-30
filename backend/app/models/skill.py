@@ -37,7 +37,8 @@ class Skill(Base):
     job_skills = relationship("JobSkill", back_populates="skill")
     embedding = relationship("SkillEmbedding", back_populates="skill", uselist=False)
     archetype_skills = relationship("ArchetypeSkill", back_populates="skill")
-    trends = relationship("SkillTrend", back_populates="skill")
+    cooccurrences_a = relationship("SkillCooccurrence", foreign_keys="[SkillCooccurrence.skill_a_id]", back_populates="skill_a")
+    cooccurrences_b = relationship("SkillCooccurrence", foreign_keys="[SkillCooccurrence.skill_b_id]", back_populates="skill_b")
 
     def __repr__(self):
         return f"<Skill(id={self.id}, name='{self.canonical_name}')>"
