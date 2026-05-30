@@ -1,0 +1,58 @@
+# ============================================================
+# Skill Genome Platform — Python Dependencies
+# ============================================================
+
+# --- Web Framework ---
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+python-multipart==0.0.20
+
+# --- Database ---
+sqlalchemy==2.0.41
+pymysql==1.1.1
+cryptography==44.0.3            # Required for MySQL SSL
+
+# --- Data Processing ---
+pandas==2.2.3
+numpy==1.26.4
+
+# --- NLP ---
+spacy==3.8.7
+# Download model separately: python -m spacy download en_core_web_sm
+
+# --- Embeddings ---
+gensim==4.3.3                   # Word2Vec training
+sentence-transformers==4.1.0    # SBERT (comparison/fallback)
+
+# --- Machine Learning ---
+scikit-learn==1.6.1
+hdbscan==0.8.40
+xgboost==3.0.1
+
+# --- Trend Analysis ---
+prophet==1.1.6
+
+# --- Experiment Tracking ---
+mlflow==2.22.0
+
+# --- Text Processing ---
+rapidfuzz==3.13.0               # Fast fuzzy matching (Levenshtein)
+nltk==3.9.1
+
+# --- Visualization (notebooks) ---
+matplotlib==3.10.3
+seaborn==0.13.2
+umap-learn==0.5.7               # UMAP for embedding visualization
+
+# --- Validation & Serialization ---
+pydantic==2.11.3
+pydantic-settings==2.9.1
+
+# --- Testing ---
+pytest==8.3.5
+httpx==0.28.1                   # Async test client for FastAPI
+
+# --- Utilities ---
+python-dotenv==1.1.0
+tqdm==4.67.1
+joblib==1.4.2
