@@ -9,12 +9,12 @@
 | Feature | Description |
 |:---|:---|
 | **Skill Extraction** | NLP pipeline extracts skills from 100K+ job descriptions |
-| **Skill Embeddings** | Word2Vec learns skill relationships from co-occurrence patterns |
+| **Skill Embeddings** | Sentence-BERT learns semantic relationships between skills |
 | **Career Archetypes** | Clustering discovers natural career profiles (ML Engineer, Data Analyst, etc.) |
 | **Skill Gap Analysis** | Compares your skills to career archetypes and identifies what's missing |
-| **Trend Forecasting** | Prophet models track rising and declining skills over time |
+| **Market Simulator** | Propagation network simulates localized technology demand shocks |
 | **Recommendations** | Multi-signal engine suggests the best next skills to learn |
-| **Interactive Dashboard** | React UI with skill explorer, career pathways, and trend charts |
+| **Interactive Dashboard** | React UI with skill explorer, career pathways, and disruption simulator |
 
 ---
 
@@ -26,7 +26,7 @@ React Dashboard ──── FastAPI ──── Services Layer ──── My
                                    Clustering, etc.)
 ```
 
-> **Design Philosophy:** Embedding-native intelligence with graph visualization only for exploration. No graph algorithms power the core logic — all intelligence comes from vector similarity, clustering, and time-series analysis.
+> **Design Philosophy:** Embedding-native intelligence with graph visualization only for exploration. No graph algorithms power the core logic — all intelligence comes from vector similarity, clustering, and shock propagation models.
 
 ---
 
@@ -37,7 +37,7 @@ React Dashboard ──── FastAPI ──── Services Layer ──── My
 | Frontend | React 18 + Vite, D3.js, vis-network |
 | Backend | Python, FastAPI |
 | NLP | spaCy, Sentence Transformers |
-| ML | scikit-learn, HDBSCAN, gensim (Word2Vec), Prophet |
+| ML | scikit-learn, HDBSCAN, matrix shock propagation |
 | Database | MySQL 8.x |
 | MLOps | MLflow, Docker, GitHub Actions |
 
@@ -101,7 +101,7 @@ skill-genome-platform/
 | Skills Extracted | _TBD_ |
 | Embedding Quality (nearest-neighbor accuracy) | _TBD_ |
 | Career Archetypes Discovered | _TBD_ |
-| Trend Forecast MAPE | _TBD_ |
+| Disruption Sensitivity Score | _TBD_ |
 
 ---
 
@@ -121,9 +121,9 @@ See the [docs/](docs/) directory for all documents.
 
 ## 🎓 Built As
 
-A production-inspired portfolio project for a **Data Science (DS1) fresher role**, demonstrating:
+- A production-inspired portfolio project for a **Data Science (DS1) fresher role**, demonstrating:
 - End-to-end ML pipeline (data → model → API → dashboard)
-- NLP, embeddings, clustering, time-series analysis
+- NLP, embeddings, clustering, shock propagation networks
 - Feature engineering & statistical thinking
 - System design & architecture
 - MLOps (experiment tracking, containerization, CI/CD)

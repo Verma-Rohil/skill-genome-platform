@@ -67,7 +67,7 @@ Job Descriptions → [Extract] → [Normalize] → [Embed] → [Cluster] → [Re
 |:---|:---|
 | **Input** | User's current skill set |
 | **Output** | Ranked list of recommended next skills |
-| **Method** | Multi-signal scoring: embedding proximity (0.4) + trend growth (0.3) + gap importance (0.3) |
+| **Method** | Multi-signal scoring: embedding proximity (0.4) + skill synergy index (0.3) + gap importance (0.3) |
 | **Key Metric** | Recommendation relevance (qualitative review) |
 
 ---
@@ -79,7 +79,7 @@ Job Descriptions → [Extract] → [Normalize] → [Embed] → [Cluster] → [Re
 | **When** | Before deployment; re-run on new data | Per API request |
 | **Compute** | Local CPU (no GPU needed) | In-process inference |
 | **Latency** | Minutes to hours | < 200ms per request |
-| **Artifacts** | S-BERT model (pre-trained), KMeans/HDBSCAN pickle, Prophet models | Loaded into memory at FastAPI startup |
+| **Artifacts** | S-BERT model (pre-trained), KMeans/HDBSCAN pickle, Skill Co-occurrence matrices | Loaded into memory at FastAPI startup |
 | **Tracking** | MLflow logs all experiments | MLflow not involved at serving time |
 
 ---
@@ -107,7 +107,7 @@ Every model artifact is:
 | Normalization | Duplicate rate | Count unique vs total skills after normalization |
 | Embeddings | Nearest-neighbor quality | Manual inspection of top-5 neighbors per skill |
 | Clustering | Silhouette, Davies-Bouldin | scikit-learn metrics + human archetype labeling |
-| Trends | Forecast MAPE | Back-test: train on months 1-9, predict months 10-12 |
+| Synergies | Disruption Sensitivity | Robustness to simulated shock propagates correctly |
 | Recommendations | Relevance | Qualitative review ("Does Python→Pandas make sense?") |
 
 ---
@@ -120,4 +120,4 @@ Every model artifact is:
 | KMeans vs HDBSCAN | Both (compare) | KMeans = interpretable; HDBSCAN = handles noise. Show comparison in interview |
 | MySQL vs Vector DB | MySQL + in-memory | ~1K skills fit in RAM. Vector DB adds unnecessary infra |
 | Online vs Batch recommendations | Online (per-request) | Low latency; user experience priority |
-| Prophet vs ARIMA | Prophet | Handles missing dates, automatic changepoints, uncertainty intervals |
+| Synergy Simulation vs Time-series Forecasting | Synergy Network & Propagation | Co-occurrence probability captures structural dynamics; forecasting future trends from static data is an ML anti-pattern |

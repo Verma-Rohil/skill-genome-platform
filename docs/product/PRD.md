@@ -15,9 +15,9 @@ The Skill Genome Platform is a career intelligence system that models the profes
 - How do skills relate to each other?
 - Which skill combinations define career archetypes?
 - What should a professional learn next based on their current skill set?
-- Which skills are emerging, and which are declining?
+- How do market shifts in one skill propagate to other skills and career archetypes?
 
-The platform processes 100K+ job postings, extracts and normalizes skills using NLP, generates skill embeddings using Word2Vec, discovers career archetypes via clustering, and delivers personalized recommendations through a React dashboard backed by FastAPI.
+The platform processes 100K+ job postings, extracts and normalizes skills using NLP, generates skill embeddings using Sentence-BERT, discovers career archetypes via clustering, and delivers personalized recommendations through a React dashboard backed by FastAPI.
 
 ---
 
@@ -49,7 +49,7 @@ The platform processes 100K+ job postings, extracts and normalizes skills using 
 | **Job Seeker** | "What should I learn next?" | Skill gap analysis + recommendations |
 | **Career Changer** | "What careers match my skills?" | Career archetype matching |
 | **Hiring Manager** | "What skills define an ML Engineer?" | Archetype skill profiles |
-| **Educator** | "What skills are trending?" | Trend analysis dashboard |
+| **Educator** | "What skills are in high synergy or vulnerable to shifts?" | Synergy & Disruption dashboard |
 | **Data Enthusiast** | "How do skills relate?" | Skill explorer + network visualization |
 
 ---
@@ -63,7 +63,7 @@ The platform processes 100K+ job postings, extracts and normalizes skills using 
 | G3 | Generate meaningful skill embeddings | Nearest-neighbor sanity: Python → Pandas ✅ |
 | G4 | Discover interpretable career archetypes | Silhouette score > 0.3, human-labeled names |
 | G5 | Provide relevant skill recommendations | Top-5 recommendation accuracy > 70% (user survey proxy) |
-| G6 | Track and forecast skill trends | Forecast MAPE < 25% on back-test |
+| G6 | Model skill synergies & simulate market shifts | Propagation sensitivity validates against controlled shocks |
 | G7 | Expose all intelligence via API | 100% endpoints documented, <500ms latency |
 | G8 | Deliver an interactive dashboard | 4 pages, responsive, <3s initial load |
 
@@ -74,10 +74,10 @@ The platform processes 100K+ job postings, extracts and normalizes skills using 
 ### In Scope (v1.0)
 - Skill extraction from job descriptions (dictionary + NER)
 - Skill normalization pipeline
-- Skill embedding generation (Word2Vec)
+- Skill embedding generation (Sentence-BERT)
 - Career archetype discovery (KMeans + HDBSCAN)
 - Skill gap analysis
-- Trend analysis and forecasting (Prophet)
+- Skill synergy mapping & Workforce Disruption Simulator (Conditional Probability matrix)
 - Personalized skill recommendations
 - REST API (FastAPI)
 - React dashboard with network visualization
@@ -112,8 +112,8 @@ The platform processes 100K+ job postings, extracts and normalizes skills using 
 1. Kaggle LinkedIn/Indeed job posting datasets provide sufficient volume and quality
 2. MySQL 8.x is available on the development machine
 3. ~800 canonical skills cover the majority of tech industry demand
-4. Monthly granularity is sufficient for trend analysis
-5. Word2Vec with ~100K+ skill "sentences" produces meaningful embeddings
+4. Jaccard similarity and Pointwise Mutual Information (PMI) capture robust semantic synergies
+5. Sentence-BERT combined with co-occurrence metrics produces highly expressive semantic representations
 
 ---
 

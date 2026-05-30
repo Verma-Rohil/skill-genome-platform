@@ -28,18 +28,18 @@ The Skill Genome Platform follows a **layered architecture** with clear separati
 │                                                                  │
 │   Skill Extractor ──── Normalizer ──── Embedding Engine          │
 │   Similarity Engine ── Clustering ──── Gap Analyzer              │
-│   Trend Analyzer ───── Recommender                               │
+│   Synergy Engine ───── Disruption Simulator ── Recommender       │
 └──────────┬───────────────────────────────────────┬───────────────┘
            │ SQLAlchemy ORM                        │ File I/O
 ┌──────────▼───────────┐                ┌──────────▼───────────────┐
 │    DATA LAYER        │                │    ML ARTIFACT LAYER     │
 │                      │                │                          │
-│   MySQL 8.x          │                │   Word2Vec models        │
+│   MySQL 8.x          │                │   S-BERT models          │
 │   - Skills           │                │   KMeans/HDBSCAN models  │
-│   - Job Postings     │                │   Prophet models         │
+│   - Job Postings     │                │   Synergy matrices       │
 │   - Embeddings       │                │   MLflow tracking        │
 │   - Archetypes       │                │                          │
-│   - Trends           │                │                          │
+│   - Co-occurrences   │                │                          │
 └──────────────────────┘                └──────────────────────────┘
 ```
 
@@ -51,7 +51,7 @@ The Skill Genome Platform follows a **layered architecture** with clear separati
 ┌─ Frontend (React + Vite) ─────────────────────────────────────┐
 │                                                                │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐      │
-│  │Dashboard │  │ Explorer │  │ Career   │  │ Trends   │      │
+│  │Dashboard │  │ Explorer │  │ Career   │  │ Simulator│      │
 │  │  Page    │  │  Page    │  │ Intel    │  │  Page    │      │
 │  └──────────┘  └──────────┘  │  Page    │  └──────────┘      │
 │                               └──────────┘                     │
@@ -64,7 +64,7 @@ The Skill Genome Platform follows a **layered architecture** with clear separati
 │  FastAPI Backend                                                │
 │                                                                 │
 │  ┌─ Routers ──────────────────────────────────────────────┐    │
-│  │ /api/skills    /api/careers    /api/trends              │    │
+│  │ /api/skills    /api/careers    /api/simulator           │    │
 │  │ /api/recommendations          /api/health               │    │
 │  └────────────────────┬───────────────────────────────────┘    │
 │                       │                                         │
@@ -79,8 +79,8 @@ The Skill Genome Platform follows a **layered architecture** with clear separati
 │  │  ClusteringEngine ──▶  GapAnalyzer                      │    │
 │  │       │                     │                           │    │
 │  │       ▼                     ▼                           │    │
-│  │  TrendAnalyzer   ──▶  Recommender                       │    │
-│  │                                                         │    │
+│  │  SynergyEngine    ──▶  DisruptionSimulator             │    │
+│  │  Recommender                                            │    │
 │  └─────────────────────────────────────────────────────────┘    │
 │                       │                                         │
 │  ┌─ Data ─────────────▼───────────────────────────────────┐    │
@@ -107,7 +107,7 @@ Raw Job Posting (text)
 [MySQL: job_skills] ── Persist mapping ──▶ job_id ↔ skill_id
     │
     ▼
-[Embedding Engine] ── Word2Vec on skill co-occurrence ──▶ Skill vectors (100-dim)
+[Embedding Engine] ── Sentence-BERT (MiniLM) ──▶ Skill vectors (384-dim)
     │
     ├──▶ [Similarity Engine] ── Cosine similarity ──▶ "Python is similar to Pandas"
     │
@@ -115,9 +115,11 @@ Raw Job Posting (text)
     │        │
     │        └──▶ [Gap Analyzer] ── User skills vs archetype ──▶ Skill gaps
     │
-    ├──▶ [Trend Analyzer] ── Prophet on monthly counts ──▶ Emerging/declining skills
+    ├──▶ [Synergy Engine] ── Jaccard / PMI counts ──▶ High-synergy skill bundles
+    │        │
+    │        └──▶ [Disruption Simulator] ── Shock propagation ──▶ Archetype vulnerability shifts
     │
-    └──▶ [Recommender] ── Embedding proximity + trend + gap ──▶ "Learn MLOps next"
+    └──▶ [Recommender] ── Embedding proximity + synergy score + gap ──▶ "Learn MLOps next"
               │
               ▼
          [FastAPI] ──▶ [React Dashboard]
@@ -162,9 +164,9 @@ Raw Job Posting (text)
 | ORM | SQLAlchemy | 2.0+ |
 | Database | MySQL | 8.x |
 | NLP | spaCy | 3.x |
-| Embeddings | gensim (Word2Vec) | 4.x |
+| Embeddings | Sentence-Transformers (S-BERT) | Latest |
 | Clustering | scikit-learn, HDBSCAN | Latest |
-| Forecasting | Prophet | 1.x |
+| Simulation | Association Rules / Matrix ops | N/A |
 | Experiment Tracking | MLflow | 2.x |
 | Containerization | Docker + Docker Compose | Latest |
 | CI/CD | GitHub Actions | N/A |
@@ -177,7 +179,7 @@ Raw Job Posting (text)
 > "The platform uses a layered architecture — presentation (React), API (FastAPI), service (ML logic), and data (MySQL). Each service component (extractor, normalizer, embedding engine, etc.) is a standalone Python class injected into FastAPI routes. This means I can test the clustering engine independently of the API, or swap MySQL for PostgreSQL without changing business logic."
 
 ### "Why not microservices?"
-> "For a single-developer project processing static data, microservices add complexity without benefit. The service layer already achieves separation of concerns. If this scaled to multiple teams, I'd split the embedding service and trend analyzer into separate deployable units."
+> "For a single-developer project processing static data, microservices add complexity without benefit. The service layer already achieves separation of concerns. If this scaled to multiple teams, I'd split the embedding service and simulation engine into separate deployable units."
 
 ### "How do you handle model updates?"
 > "ML models are trained offline, logged to MLflow, and loaded at FastAPI startup. The `model_version` column in `skill_embeddings` and `career_archetypes` tracks which model produced each result. In production, I'd add A/B testing between model versions."

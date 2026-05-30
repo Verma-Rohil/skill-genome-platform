@@ -14,7 +14,7 @@
 - **Endpoint:** `POST /api/careers/gap`
 
 **US-03** | As a job seeker, I want to **get personalized skill recommendations**, so I know exactly what to learn next.
-- **Acceptance:** Returns top-5 recommended skills with reasoning (trend, proximity, gap)
+- **Acceptance:** Returns top-5 recommended skills with reasoning (synergy, proximity, gap)
 - **Endpoint:** `POST /api/recommendations`
 
 ---
@@ -35,19 +35,19 @@
 
 ---
 
-## Trend Watcher Stories
+## Market Shift Analyzer Stories
 
-**US-07** | As a trend watcher, I want to **see which skills are growing fastest**, so I can invest in future-proof skills.
-- **Acceptance:** Returns top-10 emerging skills with growth rates
-- **Endpoint:** `GET /api/trends/emerging`
+**US-07** | As a market analyst, I want to **see which skills have the highest co-occurrence synergy with a chosen skill**, so I can identify bundled skill requirements.
+- **Acceptance:** Selecting a skill returns its high-synergy partners with support, confidence, and lift scores.
+- **Endpoint:** `GET /api/skills/{id}/synergy`
 
-**US-08** | As a trend watcher, I want to **see historical demand trends for any skill**, so I can understand its trajectory.
-- **Acceptance:** Time-series data with monthly mention counts + forecast
-- **Endpoint:** `GET /api/skills/{id}/trend`
+**US-08** | As a workforce planner, I want to **simulate a surge or drop in adoption of a specific skill**, so I can see its propagated impact on adjacent skills and career archetypes.
+- **Acceptance:** Sliding the adoption multiplier runs a shock-propagation matrix calculation and returns secondary demand shocks.
+- **Endpoint:** `POST /api/simulator/simulate`
 
-**US-09** | As a trend watcher, I want to **see declining skills**, so I can avoid investing in fading technologies.
-- **Acceptance:** Returns bottom-10 skills by growth rate
-- **Endpoint:** `GET /api/trends/declining`
+**US-09** | As a career changer, I want to **see which career archetypes are most vulnerable to market disruption shocks**, so I can understand my career resilience.
+- **Acceptance:** Ranks archetypes based on a calculated "Sensitivity/Vulnerability Score" under active simulated shifts.
+- **Endpoint:** `GET /api/simulator/vulnerability`
 
 ---
 
