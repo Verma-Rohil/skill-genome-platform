@@ -13,7 +13,7 @@ ALTERNATIVE: os.getenv() scattered everywhere
 WHY NOT: No validation, no type safety, hard to find all config values
 """
 
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 from functools import lru_cache
 
 
@@ -53,9 +53,11 @@ class Settings(BaseSettings):
             "?charset=utf8mb4"
         )
 
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+        extra="ignore"
+    )
 
 
 @lru_cache()
