@@ -79,7 +79,7 @@ function Dashboard() {
         {/* Discovered Career Archetypes */}
         <section className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
-            💼 Discovered Career Archetypes
+            Discovered Career Archetypes
           </h3>
           {loading ? (
             <div style={{ display: 'flex', justifyContent: 'center', padding: '3rem 0' }}>
@@ -103,7 +103,7 @@ function Dashboard() {
         {/* Macro In-Demand Skills */}
         <section className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
-            🔥 Macro In-Demand Skills
+            Macro In-Demand Skills
           </h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
             {topMarketSkills.map((skill, idx) => (

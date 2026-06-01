@@ -1,12 +1,5 @@
 """
-Skill Synergy Analyzer
-======================
 Computes association metrics (Support, Confidence, Lift, PMI) for skill pairings.
-
-WHY THIS ANALYSIS:
-- Maps the "Skill Genome" as a weighted synergy graph.
-- Uncovers deep dependencies between skills (e.g., if you learn Docker, how likely are you to need Kubernetes?).
-- Feeds conditional probability weights into the shock-propagation workforce simulator.
 """
 
 import math

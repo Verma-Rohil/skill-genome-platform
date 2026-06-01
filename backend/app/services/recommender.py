@@ -1,15 +1,6 @@
 """
-Skill Recommendation Engine
-===========================
 Generates personalized skill recommendations for a user based on their current skills
 and target career archetype.
-
-WHY THIS ENGINE:
-- Combines three distinct signals:
-  1. Target Archetype Relevance (what skills are missing to reach the goal?)
-  2. Co-occurrence Synergy (what skills are frequently paired with their current skills?)
-  3. Semantic Proximity (what skills are conceptually similar to what they know?)
-- Normalizes and weights these signals to produce a ranked recommendation list.
 """
 
 from typing import List, Dict, Any, Tuple, Optional

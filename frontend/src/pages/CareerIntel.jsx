@@ -292,7 +292,7 @@ function CareerIntel({ userSkills, addSkill }) {
             {/* Gap Analysis Stats */}
             <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
-                📊 Fit Analysis
+                Fit Analysis
               </h3>
               
               <div>
@@ -315,7 +315,7 @@ function CareerIntel({ userSkills, addSkill }) {
                 {/* Matching Skills */}
                 <div>
                   <h4 style={{ fontSize: '0.9rem', color: 'var(--success)', marginBottom: '0.5rem', fontWeight: '700' }}>
-                    ✓ Matching Skills ({gapAnalysis.matching_skills.length})
+                    Matching Skills ({gapAnalysis.matching_skills.length})
                   </h4>
                   <div className="badge-container">
                     {gapAnalysis.matching_skills.map((s) => (
@@ -332,7 +332,7 @@ function CareerIntel({ userSkills, addSkill }) {
                 {/* Missing Skills with Substitute */}
                 <div>
                   <h4 style={{ fontSize: '0.9rem', color: 'var(--error)', marginBottom: '0.5rem', fontWeight: '700' }}>
-                    ✗ Missing Skill Gaps ({gapAnalysis.missing_skills.length})
+                    Missing Skill Gaps ({gapAnalysis.missing_skills.length})
                   </h4>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                     {gapAnalysis.missing_skills.map((s) => (
@@ -343,7 +343,7 @@ function CareerIntel({ userSkills, addSkill }) {
                         </div>
                         {s.closest_substitute ? (
                           <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-                            💡 Partial credit granted for substitute <strong style={{ color: 'var(--accent)' }}>{s.closest_substitute}</strong> (similarity: {(s.substitute_similarity * 100).toFixed(0)}%, credit: +{(s.substitute_credit * 100).toFixed(0)}%)
+                            Partial credit granted for substitute <strong style={{ color: 'var(--accent)' }}>{s.closest_substitute}</strong> (similarity: {(s.substitute_similarity * 100).toFixed(0)}%, credit: +{(s.substitute_credit * 100).toFixed(0)}%)
                           </div>
                         ) : (
                           <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontStyle: 'italic' }}>
@@ -361,7 +361,7 @@ function CareerIntel({ userSkills, addSkill }) {
             <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center', justifyContent: 'center' }}>
               <div style={{ alignSelf: 'stretch', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
                 <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem' }}>
-                  🕸️ Centroid Overlap Radar Model
+                  Centroid Overlap Radar Model
                 </h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem' }}>
                   Visual comparison between target requirements (<span style={{ borderBottom: '1.5px dashed var(--primary)', color: 'var(--primary)', fontWeight: 'bold' }}>dashed purple</span>) and your profile (<span style={{ color: 'var(--accent)', fontWeight: 'bold' }}>solid cyan</span>).
@@ -385,7 +385,7 @@ function CareerIntel({ userSkills, addSkill }) {
           {/* Recommendations roadmap */}
           <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
             <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
-              🚀 Recommended Learning Roadmap
+              Recommended Learning Roadmap
             </h3>
             <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
               Personalized roadmap built combining target archetype gaps (weight 50%), co-occurrence synergy (weight 30%), and semantic proximity (weight 20%).

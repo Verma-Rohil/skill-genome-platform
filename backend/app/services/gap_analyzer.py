@@ -1,13 +1,5 @@
 """
-Skill Gap Analyzer Service
-==========================
 Analyzes the discrepancy between a user's current skills and a target career archetype's requirements.
-
-WHY THIS SERVICE:
-- Provides a personalized career roadmap for users.
-- Ranks gaps mathematically by their importance in the target archetype.
-- Incorporates semantic similarity (e.g. if the user knows PyTorch and the archetype requires TensorFlow,
-  it recognizes the low barrier to entry rather than treating it as a total gap).
 """
 
 from typing import List, Dict, Any, Tuple

@@ -1,12 +1,5 @@
 """
-Skill Embedding Engine
-======================
 Generates dense vector embeddings for skills using Sentence-BERT.
-
-WHY THIS ENGINE:
-- Translates semantic concepts into vector representations.
-- Enables downstream clustering and semantic similarity search.
-- Uses `all-MiniLM-L6-v2` S-BERT model to construct high-quality 384-dimensional embeddings.
 """
 
 import numpy as np

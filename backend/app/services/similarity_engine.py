@@ -1,13 +1,5 @@
 """
-Skill Similarity Engine
-=======================
 Computes cosine similarity between skill vector representations to find similar skills.
-
-WHY THIS ENGINE:
-- Allows recommendation of alternate or related skills.
-- Helps identify complementary skill pairings.
-- Seamlessly handles both in-vocabulary skills (cached DB embeddings) and
-  out-of-vocabulary terms (encoded on-the-fly via S-BERT).
 """
 
 import numpy as np

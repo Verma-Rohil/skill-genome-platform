@@ -100,12 +100,12 @@ function Simulator() {
         {/* Simulation shock configurations panel */}
         <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
-            ⚙️ Shock Configuration
+            Shock Configuration
           </h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
             Specify initial market shocks (demand surge/fall) on specific skills, then trigger a 2-hop decay shock propagation across the co-occurrence synergy network.
           </p>
-
+          
           {/* Add Skill to Shock List */}
           <div style={{ position: 'relative' }}>
             <input
@@ -207,14 +207,14 @@ function Simulator() {
             onClick={handleRunSimulation}
             disabled={loading}
           >
-            {loading ? 'Simulating Propagation...' : '⚡ Run Disruption Simulation'}
+            {loading ? 'Simulating Propagation...' : 'Run Disruption Simulation'}
           </button>
         </div>
 
         {/* Career archetype vulnerability results */}
         <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem' }}>
-            📉 Archetype Vulnerability Rankings
+            Archetype Vulnerability Rankings
           </h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
             Career clusters ranked by disruption index (calculated as the normalized sum of required skills shocked).
@@ -269,7 +269,7 @@ function Simulator() {
       {results && results.skill_shocks.length > 0 && (
         <section className="card" style={{ marginBottom: '2rem' }}>
           <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.25rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.75rem', marginBottom: '1.25rem' }}>
-            💥 Skill-Level Propagated Shocks Breakdown
+            Skill-Level Propagated Shocks Breakdown
           </h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '1.5rem' }}>
             List of skills affected by the cascade shock propagation, sorted by total propagated shock index.

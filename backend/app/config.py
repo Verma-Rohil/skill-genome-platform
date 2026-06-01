@@ -1,18 +1,3 @@
-"""
-Skill Genome Platform — Configuration
-======================================
-Centralized settings loaded from environment variables.
-
-WHY THIS APPROACH:
-- pydantic-settings validates env vars at startup (fail fast, not at runtime)
-- Type-safe: DB_PORT is always an int, not a string
-- Single source of truth for all configuration
-- .env file support for local development
-
-ALTERNATIVE: os.getenv() scattered everywhere
-WHY NOT: No validation, no type safety, hard to find all config values
-"""
-
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from functools import lru_cache
 
@@ -20,27 +5,22 @@ from functools import lru_cache
 class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
 
-    # --- Database ---
     DB_HOST: str = "localhost"
     DB_PORT: int = 3306
     DB_NAME: str = "skill_genome"
     DB_USER: str = "root"
     DB_PASSWORD: str = ""
 
-    # --- API ---
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
     API_DEBUG: bool = True
 
-    # --- MLflow ---
     MLFLOW_TRACKING_URI: str = "http://localhost:5000"
 
-    # --- Embedding ---
-    EMBEDDING_MODEL: str = "sbert"               # sbert | word2vec
-    EMBEDDING_MODEL_NAME: str = "all-MiniLM-L6-v2"  # S-BERT model identifier
-    EMBEDDING_DIM: int = 384                       # S-BERT outputs 384-dim vectors
+    EMBEDDING_MODEL: str = "sbert"
+    EMBEDDING_MODEL_NAME: str = "all-MiniLM-L6-v2"
+    EMBEDDING_DIM: int = 384
 
-    # --- Clustering ---
     CLUSTER_METHOD: str = "kmeans"
     CLUSTER_N: int = 8
 
@@ -62,12 +42,5 @@ class Settings(BaseSettings):
 
 @lru_cache()
 def get_settings() -> Settings:
-    """
-    Cached settings instance.
-
-    WHY lru_cache:
-    - Settings are read once and reused across the app lifetime
-    - Prevents re-reading .env file on every request
-    - Standard FastAPI pattern for dependency injection
-    """
+    """Cached settings instance."""
     return Settings()

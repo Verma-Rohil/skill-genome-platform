@@ -159,7 +159,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
           {/* Skill Search Box */}
           <div className="card" style={{ position: 'relative' }}>
             <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.15rem', marginBottom: '1rem' }}>
-              🔍 Search Skill Genome
+              Search Skill Genome
             </h3>
             <div style={{ position: 'relative' }}>
               <input
@@ -196,7 +196,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
           {/* User Profile Skills Section */}
           <div className="card">
             <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.15rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span>👤 Your Core Profile Skills</span>
+              <span>Your Core Profile Skills</span>
               <span className="badge badge-accent">{userSkills.length} Skills</span>
             </h3>
             <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '1.25rem' }}>
@@ -257,7 +257,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
         {/* Right Column: NLP Extractor */}
         <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
           <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.15rem' }}>
-            🔮 NLP Skill Extractor (Trie Matcher)
+            NLP Skill Extractor (Trie Matcher)
           </h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
             Paste a job posting description or resume below to parse out matching canonical technology terms in linear time $O(N)$ with greedy lookahead.
@@ -275,7 +275,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
             onClick={handleExtract}
             disabled={extractLoading || !extractText.trim()}
           >
-            {extractLoading ? 'Extracting...' : '🧬 Extract Skills'}
+            {extractLoading ? 'Extracting...' : 'Extract Skills'}
           </button>
 
           {extractedSkills.length > 0 && (
@@ -293,7 +293,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
                       onClick={() => addSkill(sk)}
                       title={alreadyHave ? 'Already in profile' : 'Click to add to profile'}
                     >
-                      {sk} {alreadyHave ? '✓' : '+'}
+                      {sk} {alreadyHave ? '(Added)' : '(Add)'}
                     </span>
                   );
                 })}
@@ -341,7 +341,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
                 {/* S-BERT Cosine Similarity peers */}
                 <div>
                   <h4 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.05rem', color: '#e2e8f0', marginBottom: '0.75rem' }}>
-                    🧬 Semantic Similarity Peers (S-BERT)
+                    Semantic Similarity Peers (S-BERT)
                   </h4>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginBottom: '1rem' }}>
                     Nearest neighbors in the S-BERT 384-dimensional space (cosine similarity). Shows equivalent/substitute tools.
@@ -369,7 +369,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
                 {/* Co-occurrence market synergy */}
                 <div>
                   <h4 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.05rem', color: '#e2e8f0', marginBottom: '0.75rem' }}>
-                    🤝 Market Synergy (Co-occurrence)
+                    Market Synergy (Co-occurrence)
                   </h4>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginBottom: '1rem' }}>
                     Highly correlated skills in postings. Ordered by Lift (measure of synergy strength relative to random chance).
@@ -415,7 +415,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
               {/* Vis-network Graph Panel */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                 <h4 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.05rem', color: '#e2e8f0' }}>
-                  🕸️ Local Synergy Network Graph
+                  Local Synergy Network Graph
                 </h4>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem' }}>
                   Interactive visualization of the node and its co-occurring neighbors. Node sizes reflect conditional probabilities. Zoom, pan, or drag elements.

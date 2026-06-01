@@ -1,31 +1,3 @@
-"""
-Skill Genome Platform — FastAPI Application Entry Point
-=========================================================
-This is where the application is assembled.
-
-ARCHITECTURE: Layered Design
-┌─────────────────────────────────┐
-│         API Layer (Routers)     │  ← HTTP handling, request/response
-├─────────────────────────────────┤
-│       Service Layer             │  ← Business logic, ML inference
-├─────────────────────────────────┤
-│       Data Layer (Models/DB)    │  ← Database access, ORM
-└─────────────────────────────────┘
-
-WHY FastAPI:
-- Async support for high-concurrency ML inference
-- Auto-generated OpenAPI docs (Swagger UI at /docs)
-- Pydantic validation on all inputs/outputs
-- Dependency injection for clean architecture
-
-INTERVIEW ANSWER:
-"I chose a layered architecture where routers handle HTTP concerns,
-services contain business logic and ML inference, and the data layer
-manages persistence. This separation means I can test services
-independently, swap databases without changing business logic, and
-add new endpoints without touching ML code."
-"""
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -48,15 +20,11 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
-# --- CORS Middleware ---
-# Allows React frontend (localhost:5173) to call our API (localhost:8000)
-# WHY: Browsers block cross-origin requests by default (security).
-# Without this, React → FastAPI calls would fail with CORS errors.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",   # Vite dev server
-        "http://localhost:3000",   # Fallback
+        "http://localhost:5173",
+        "http://localhost:3000",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -64,11 +32,6 @@ app.add_middleware(
 )
 
 
-# --- Health Check ---
-# This is the FIRST endpoint you build in any service.
-# WHY: Docker, Kubernetes, and load balancers use health checks
-# to know if your service is alive. Without it, broken services
-# keep receiving traffic.
 @app.get("/api/health", tags=["System"])
 async def health_check():
     """Service health check endpoint."""
@@ -79,7 +42,7 @@ async def health_check():
     }
 
 
-# --- Register Routers ---
+# Register Routers
 app.include_router(skills_router, prefix="/api/skills", tags=["Skills"])
 app.include_router(recommendations_router, prefix="/api/recommendations", tags=["Recommendations"])
 app.include_router(careers_router, prefix="/api/careers", tags=["Careers"])
@@ -88,15 +51,11 @@ app.include_router(simulator_router, prefix="/api/simulator", tags=["Simulator"]
 
 @app.on_event("startup")
 async def startup_event():
-    """
-    Runs when the server starts.
-    Use for: loading ML models into memory, warming caches, DB migrations.
-    """
-    print("🧬 Skill Genome Platform starting up...")
-    # Future: Load embedding model, cluster model, etc.
+    """Run server startup hooks."""
+    print("Skill Genome Platform starting up...")
 
 
 @app.on_event("shutdown")
 async def shutdown_event():
-    """Cleanup on server shutdown."""
-    print("🧬 Skill Genome Platform shutting down...")
+    """Run server shutdown hooks."""
+    print("Skill Genome Platform shutting down...")

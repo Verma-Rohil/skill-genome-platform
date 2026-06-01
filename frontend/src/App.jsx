@@ -54,7 +54,6 @@ function App() {
       {/* Sidebar Navigation */}
       <aside className="sidebar">
         <div className="logo-container">
-          <span className="logo-icon">🧬</span>
           <h1 className="logo-text">SKILL GENOME</h1>
         </div>
         
@@ -65,7 +64,6 @@ function App() {
                 className={`nav-item ${activeTab === 'dashboard' ? 'active' : ''}`}
                 onClick={() => setActiveTab('dashboard')}
               >
-                <span className="nav-item-icon">📊</span>
                 Dashboard
               </button>
             </li>
@@ -74,7 +72,6 @@ function App() {
                 className={`nav-item ${activeTab === 'explorer' ? 'active' : ''}`}
                 onClick={() => setActiveTab('explorer')}
               >
-                <span className="nav-item-icon">🔍</span>
                 Skill Explorer
               </button>
             </li>
@@ -83,7 +80,6 @@ function App() {
                 className={`nav-item ${activeTab === 'career' ? 'active' : ''}`}
                 onClick={() => setActiveTab('career')}
               >
-                <span className="nav-item-icon">💼</span>
                 Career Intelligence
               </button>
             </li>
@@ -92,7 +88,6 @@ function App() {
                 className={`nav-item ${activeTab === 'simulator' ? 'active' : ''}`}
                 onClick={() => setActiveTab('simulator')}
               >
-                <span className="nav-item-icon">⚡</span>
                 Disruption Simulator
               </button>
             </li>

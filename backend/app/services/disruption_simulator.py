@@ -1,13 +1,6 @@
 """
-Workforce Disruption Simulator Service
-======================================
 Simulates technology shock propagation through the Skill Synergy Network using
 conditional probabilities, and calculates the vulnerability of career archetypes.
-
-WHY THIS SIMULATOR:
-- Pivots Goal 6 from static trend forecasting to dynamic workforce "What-If" planning.
-- Uses conditional probability transition weights P(B | A) from co-occurrence mining.
-- Models 2-hop shock propagation with mathematical decay (decay_factor = 0.5).
 """
 
 from typing import Dict, List, Any, Tuple

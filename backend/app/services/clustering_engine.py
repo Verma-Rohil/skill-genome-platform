@@ -1,12 +1,5 @@
 """
-Career Archetype Clustering Engine
-==================================
 Clusters job postings into distinct career archetypes based on their skill profiles.
-
-WHY CLUSTERING:
-- Aggregates thousands of raw job postings into a manageable set of career profiles (archetypes).
-- Discovers the natural "skill clusters" in the job market (e.g. Frontend, DevOps, ML Engineering).
-- Maps each archetype to a dense vector centroid representing its average skill requirements.
 """
 
 import numpy as np

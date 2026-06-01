@@ -1,10 +1,10 @@
-# 🧬 Skill Genome & Career Intelligence Platform
+# Skill Genome & Career Intelligence Platform
 
-> A production-inspired, interview-ready career intelligence system that models the professional skill ecosystem using NLP, dense embeddings, and clustering — revealing hidden relationships between skills, discovering career archetypes, and executing workforce disruption propagation simulations.
+> A production-inspired career intelligence system that models the professional skill ecosystem using NLP, dense embeddings, and clustering — revealing relationships between skills, discovering career archetypes, and executing workforce disruption propagation simulations.
 
 ---
 
-## 🎯 Platform Overview
+## Platform Overview
 
 | Module | Core Logic & ML Architecture | Business & Product Value |
 | :--- | :--- | :--- |
@@ -19,7 +19,7 @@
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The following diagram illustrates the data processing pipeline, service interactions, and system components:
 
@@ -67,7 +67,7 @@ graph TD
 
 ---
 
-## 📈 System Metrics & Discovered Insights
+## System Metrics & Discovered Insights
 
 The platform has been trained and evaluated on a real-market cohort of technology jobs:
 
@@ -93,7 +93,7 @@ The platform has been trained and evaluated on a real-market cohort of technolog
 
 ---
 
-## 🚀 Quick Start (Local & Docker)
+## Quick Start (Local & Docker)
 
 ### Option A: Running with Docker Compose (Recommended)
 This runs the entire multi-service environment (FastAPI + MySQL 8.x + MLflow tracking server) automatically.
@@ -139,13 +139,13 @@ npm run dev
 
 ---
 
-## 🎓 Design Philosophy & Interview Talking Points
-This system was engineered to demonstrate core principles of **Data Science** and **Software Engineering**:
-- **Baking Models into Docker Images**: We pre-download and save the S-BERT model weight files into the Docker image during the build stage. This eliminates runtime download latency and ensures complete container isolation and offline portability.
+## Design & Implementation Details
+This system demonstrates several design and optimization practices:
+- **Pre-loaded Model Weights in Docker**: We pre-download and save the S-BERT model weight files into the Docker image during the build stage. This eliminates runtime download latency and ensures complete container isolation and offline portability.
 - **Trie Extraction Time Complexity**: Rather than running nested string loops ($O(S \times N)$) or regular expressions, we use a prefix-tree structure that evaluates raw text in linear time $O(N)$ regardless of vocabulary size, retaining punctuation like `C++`.
 - **Semantic Substitute Gaps**: The gap analyzer computes semantic overlap using cosine similarities. Knowing `PyTorch` is granted quadratic substitute credit ($s^2$) against a `TensorFlow` target requirement, simulating realistic upskilling efforts.
 
 ---
 
-## 📄 License
+## License
 MIT License
