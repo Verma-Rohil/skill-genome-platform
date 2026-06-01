@@ -29,8 +29,12 @@ add new endpoints without touching ML code."
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-# Import routers (will be created in later phases)
-# from app.api import skills, recommendations, careers, trends, health
+from app.api import (
+    skills_router,
+    careers_router,
+    recommendations_router,
+    simulator_router,
+)
 
 app = FastAPI(
     title="Skill Genome Platform",
@@ -76,12 +80,10 @@ async def health_check():
 
 
 # --- Register Routers ---
-# Uncomment as each phase is built:
-# app.include_router(health.router, prefix="/api", tags=["System"])
-# app.include_router(skills.router, prefix="/api/skills", tags=["Skills"])
-# app.include_router(recommendations.router, prefix="/api/recommendations", tags=["Recommendations"])
-# app.include_router(careers.router, prefix="/api/careers", tags=["Careers"])
-# app.include_router(trends.router, prefix="/api/trends", tags=["Trends"])
+app.include_router(skills_router, prefix="/api/skills", tags=["Skills"])
+app.include_router(recommendations_router, prefix="/api/recommendations", tags=["Recommendations"])
+app.include_router(careers_router, prefix="/api/careers", tags=["Careers"])
+app.include_router(simulator_router, prefix="/api/simulator", tags=["Simulator"])
 
 
 @app.on_event("startup")

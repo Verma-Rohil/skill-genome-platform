@@ -48,8 +48,18 @@ class DisruptionSimulator:
                 initial_shocks_id[name_to_id[key_str]] = shock_val
 
         if not initial_shocks_id:
-            print("[DisruptionSimulator] Warning: No valid skills found in the shock input.")
-            return {"propagated_shocks": {}, "archetype_vulnerabilities": []}
+            print("[DisruptionSimulator] Warning: No valid skills found in the shock input. Returning baseline.")
+            archetypes = self.db.query(CareerArchetype).all()
+            vulnerabilities = [
+                {
+                    "archetype_id": arch.id,
+                    "archetype_name": arch.name,
+                    "disruption_score": 0.0,
+                    "num_jobs": arch.num_jobs
+                }
+                for arch in archetypes
+            ]
+            return {"skill_shocks": [], "archetype_vulnerabilities": vulnerabilities}
 
         # 2. Load all co-occurrence relationships as transition weights
         cooccurrences = self.db.query(SkillCooccurrence).all()
