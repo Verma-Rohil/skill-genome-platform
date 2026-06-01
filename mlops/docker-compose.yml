@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: sg_mysql_db
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      # We set the root password. In production, use secrets/environment variables.
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+      # Mount the main database schema to be executed on container boot
+      - ../backend/data/scripts/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      # Mount mlflow database initialization script
+      - ./init_db.sql:/docker-entrypoint-initdb.d/02_init_mlflow.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot_password"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mlflow:
+    build:
+      context: ./mlflow
+    container_name: sg_mlflow_server
+    restart: always
+    ports:
+      - "5000:5000"
+    depends_on:
+      db:
+        condition: service_healthy
+    command: >
+      server
+      --backend-store-uri mysql+pymysql://root:root_password@db:3306/mlflow_tracker
+      --default-artifact-root /mlflow/artifacts
+      --host 0.0.0.0
+      --port 5000
+    volumes:
+      - mlflow_artifacts:/mlflow/artifacts
+
+  backend:
+    build:
+      context: ../backend
+    container_name: sg_fastapi_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # Inject connection URI pointing to the db container
+      - DATABASE_URL=mysql+pymysql://root:root_password@db:3306/skill_genome
+      # Inject MLflow connection details pointing to the mlflow server container
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - CLUSTER_N=8
+      - API_DEBUG=True
+      - EMBEDDING_WINDOW=5
+      - EMBEDDING_MIN_COUNT=2
+
+volumes:
+  mysql_data:
+  mlflow_artifacts:

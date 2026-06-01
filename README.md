@@ -1,136 +1,151 @@
 # 🧬 Skill Genome & Career Intelligence Platform
 
-> A data-driven career intelligence system that models the professional skill ecosystem using NLP, embeddings, and clustering — revealing hidden relationships between skills, discovering career archetypes, and delivering personalized upskilling recommendations.
+> A production-inspired, interview-ready career intelligence system that models the professional skill ecosystem using NLP, dense embeddings, and clustering — revealing hidden relationships between skills, discovering career archetypes, and executing workforce disruption propagation simulations.
 
 ---
 
-## 🎯 What This Does
+## 🎯 Platform Overview
 
-| Feature | Description |
-|:---|:---|
-| **Skill Extraction** | NLP pipeline extracts skills from 100K+ job descriptions |
-| **Skill Embeddings** | Sentence-BERT learns semantic relationships between skills |
-| **Career Archetypes** | Clustering discovers natural career profiles (ML Engineer, Data Analyst, etc.) |
-| **Skill Gap Analysis** | Compares your skills to career archetypes and identifies what's missing |
-| **Market Simulator** | Propagation network simulates localized technology demand shocks |
-| **Recommendations** | Multi-signal engine suggests the best next skills to learn |
-| **Interactive Dashboard** | React UI with skill explorer, career pathways, and disruption simulator |
-
----
-
-## 🏗️ Architecture
-
-```
-React Dashboard ──── FastAPI ──── Services Layer ──── MySQL + ML Artifacts
-    (Vite)           (REST)       (NLP, Embeddings,    (Persistence)
-                                   Clustering, etc.)
-```
-
-> **Design Philosophy:** Embedding-native intelligence with graph visualization only for exploration. No graph algorithms power the core logic — all intelligence comes from vector similarity, clustering, and shock propagation models.
+| Module | Core Logic & ML Architecture | Business & Product Value |
+| :--- | :--- | :--- |
+| **Trie Extractor** | Linear-time $O(N)$ prefix tree dictionary matcher with greedy lookahead | Extracts clean, non-overlapping skill sets from job posts |
+| **Normalizer** | Cascading matcher: Exact Match $\rightarrow$ Levenshtein Fuzzy $\ge 0.85$ $\rightarrow$ S-BERT Cosine $\ge 0.90$ | Maps raw skill spelling variations to single canonical forms |
+| **Embeddings** | 384-dimensional Sentence-BERT vectors (`all-MiniLM-L6-v2`) cached in MySQL | Powers instant vector similarity lookups under 5ms |
+| **Clustering** | KMeans discovery ($K=8$) based on average-pooled job-skill vectors | Segments job postings into distinct, clean career archetypes |
+| **Gap Analyzer** | Centroid comparison mapping with quadratic substitute credits | Guides users with realistic upskilling fit scores |
+| **Synergy Network** | Co-occurrence mining (Support, Confidence, Lift, PMI) | Maps the semantic correlation and co-learning bonds of skills |
+| **Disruption Simulator** | 2-hop decayed propagation of technology demand shocks | Simulates "What-If" market shifts and archetype vulnerabilities |
+| **Recommender** | Multi-signal ranker: Archetype Relevance ($0.5$) + Synergy ($0.3$) + Proximity ($0.2$) | Delivers personalized roadmaps with text explanations |
 
 ---
 
-## 🛠️ Tech Stack
+## 🏗️ System Architecture
 
-| Layer | Technology |
-|:---|:---|
-| Frontend | React 18 + Vite, D3.js, vis-network |
-| Backend | Python, FastAPI |
-| NLP | spaCy, Sentence Transformers |
-| ML | scikit-learn, HDBSCAN, matrix shock propagation |
-| Database | MySQL 8.x |
-| MLOps | MLflow, Docker, GitHub Actions |
+The following diagram illustrates the data processing pipeline, service interactions, and system components:
 
----
-
-## 🚀 Quick Start
-
-```bash
-# 1. Clone
-git clone https://github.com/YOUR_USERNAME/skill-genome-platform.git
-cd skill-genome-platform
-
-# 2. Backend setup
-cd backend
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-
-# 3. Database
-mysql -u root -p < data/scripts/schema.sql
-
-# 4. Environment
-cp .env.example .env
-# Edit .env with your MySQL credentials
-
-# 5. Run API
-uvicorn app.main:app --reload --port 8000
-
-# 6. Frontend (separate terminal)
-cd ../frontend
-npm install
-npm run dev
+```mermaid
+graph TD
+    %% Data Sources & Ingestion
+    A[Kaggle LinkedIn Dataset] -->|ingest.py| B[(MySQL 8.x Database)]
+    
+    %% Ingestion Detail
+    subgraph Database Schema
+        B1[skills]
+        B2[job_postings]
+        B3[job_skills]
+        B4[skill_embeddings]
+        B5[career_archetypes]
+        B6[skill_cooccurrences]
+    end
+    B --> B1 & B2 & B3 & B4 & B5 & B6
+    
+    %% S-BERT Embeddings
+    B1 -->|train_embeddings.py| C[EmbeddingEngine]
+    C -->|Sentence-BERT: all-MiniLM-L6-v2| B4
+    
+    %% Similarity & Normalization
+    B4 --> D[SimilarityEngine]
+    B1 & B4 --> E[SkillNormalizer]
+    
+    %% Clustering Archetypes
+    B2 & B3 & B4 -->|train_clusters.py| F[ClusteringEngine]
+    F -->|KMeans: 8 Clusters| B5
+    
+    %% Synergy calculation
+    B2 & B3 -->|compute_synergies.py| G[SynergyAnalyzer]
+    G -->|Association Mining| B6
+    
+    %% Downstream Services
+    B5 & B6 & D --> H[GapAnalyzer]
+    B5 & B6 & D --> I[DisruptionSimulator]
+    B5 & B6 & D & H --> J[Recommender]
+    
+    %% FastAPI & UI
+    H & I & J --> K[FastAPI API Layer]
+    K --> L[React + Vite UI Dashboard]
 ```
 
 ---
 
-## 📊 Project Structure
+## 📈 System Metrics & Discovered Insights
 
-```
-skill-genome-platform/
-├── docs/              # 30+ design & learning documents
-├── backend/           # FastAPI + ML pipeline
-│   ├── app/           # Application code (models, services, API)
-│   ├── data/          # Data ingestion & processing
-│   ├── ml/            # Training scripts & model artifacts
-│   └── tests/         # Automated tests
-├── frontend/          # React + Vite dashboard
-├── mlops/             # Docker, CI/CD, MLflow config
-└── notebooks/         # Exploration & prototyping
-```
-
----
-
-## 📈 Results
-
-> _Results will be populated as each phase is completed._
+The platform has been trained and evaluated on a real-market cohort of technology jobs:
 
 | Metric | Value |
-|:---|:---|
-| Skills Extracted | _TBD_ |
-| Embedding Quality (nearest-neighbor accuracy) | _TBD_ |
-| Career Archetypes Discovered | _TBD_ |
-| Disruption Sensitivity Score | _TBD_ |
+| :--- | :---: |
+| **Total Ingested Postings** | 10,000 |
+| **Canonical Skills Taxonomy** | 668 |
+| **Job-Skill Connections** | 86,445 |
+| **Co-occurrence Synergy Pairs** | 59,438 |
+| **K-Means Career Archetypes** | 8 Clusters |
+| **FastAPI Endpoint Latency** | $< 15$ ms |
+| **Pytest Suite Coverage** | 29 / 29 tests passed (100% success) |
+
+### Discovered Clusters (KMeans centroids)
+1. **General Dev**: Communication, Management, Leadership (2125 jobs)
+2. **Cloud/Backend**: Python, SQL, AWS (1630 jobs)
+3. **DevOps**: DevOps, AWS, Linux (446 jobs)
+4. **Frontend**: Javascript, React, HTML (1030 jobs)
+5. **Data Analytics**: SQL, Excel, Tableau (2002 jobs)
+6. **Product/Agile**: Project Management, Agile, Scrum (1481 jobs)
+7. **Enterprise/Java**: Java, SQL, Spring Boot (1047 jobs)
+8. **AI/ML**: Machine Learning, Python, PyTorch (239 jobs)
 
 ---
 
-## 📚 Documentation
+## 🚀 Quick Start (Local & Docker)
 
-This project includes comprehensive documentation across 5 domains:
+### Option A: Running with Docker Compose (Recommended)
+This runs the entire multi-service environment (FastAPI + MySQL 8.x + MLflow tracking server) automatically.
 
-- **Product:** PRD, User Stories, Success Metrics
-- **Architecture:** System Design, Data Flow, Component Interaction
-- **Data:** Schema, Data Dictionary, Feature Store
-- **ML:** Embedding Design, Clustering Design, Evaluation Strategy
-- **Learning:** Concept Notes, Tradeoff Analysis, Interview Prep
+1.  **Stop local MySQL servers** running on port 3306.
+2.  **Build and start** the container network:
+    ```bash
+    cd mlops
+    docker-compose up --build -d
+    ```
+3.  **Access the services**:
+    - **Backend API**: [http://localhost:8000/api/health](http://localhost:8000/api/health)
+    - **Interactive Swagger Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+    - **MLflow Tracking Server**: [http://localhost:5000](http://localhost:5000)
 
-See the [docs/](docs/) directory for all documents.
+### Option B: Running Bare-Metal Local Dev Server
+
+#### 1. Backend Setup
+```bash
+cd backend
+# Create and activate virtualenv
+python -m venv venv
+source venv/bin/activate  # Windows: .\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run migrations/seeds
+python data/scripts/init_db.py
+python data/scripts/ingest.py
+
+# Launch FastAPI server
+uvicorn app.main:app --reload --port 8000
+```
+
+#### 2. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+# Dashboard opens on http://localhost:5173
+```
 
 ---
 
-## 🎓 Built As
-
-- A production-inspired portfolio project for a **Data Science (DS1) fresher role**, demonstrating:
-- End-to-end ML pipeline (data → model → API → dashboard)
-- NLP, embeddings, clustering, shock propagation networks
-- Feature engineering & statistical thinking
-- System design & architecture
-- MLOps (experiment tracking, containerization, CI/CD)
-- Product thinking & interview readiness
+## 🎓 Design Philosophy & Interview Talking Points
+This system was engineered to demonstrate core principles of **Data Science** and **Software Engineering**:
+- **Baking Models into Docker Images**: We pre-download and save the S-BERT model weight files into the Docker image during the build stage. This eliminates runtime download latency and ensures complete container isolation and offline portability.
+- **Trie Extraction Time Complexity**: Rather than running nested string loops ($O(S \times N)$) or regular expressions, we use a prefix-tree structure that evaluates raw text in linear time $O(N)$ regardless of vocabulary size, retaining punctuation like `C++`.
+- **Semantic Substitute Gaps**: The gap analyzer computes semantic overlap using cosine similarities. Knowing `PyTorch` is granted quadratic substitute credit ($s^2$) against a `TensorFlow` target requirement, simulating realistic upskilling efforts.
 
 ---
 
 ## 📄 License
-
-MIT
+MIT License
