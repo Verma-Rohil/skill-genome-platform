@@ -90,6 +90,16 @@ The platform has been trained and evaluated on a real-market cohort of technolog
 6. **Product/Agile**: Project Management, Agile, Scrum (1481 jobs)
 7. **Enterprise/Java**: Java, SQL, Spring Boot (1047 jobs)
 8. **AI/ML**: Machine Learning, Python, PyTorch (239 jobs)
+---
+
+## Documentation & Learning Reports
+
+Detailed documentation of our data pipelines, machine learning designs, and chronological reports can be found in the [docs](docs/) directory:
+
+- **Chronological Walkthrough & Results**: [Learning Analysis Report](docs/learning/learning_analysis_report.md)
+- **Product & Requirements**: [Product Requirements Document (PRD)](docs/product/PRD.md) | [Functional Requirements](docs/product/functional_requirements.md) | [User Stories](docs/product/user_stories.md)
+- **Architecture & Data Design**: [High-Level Architecture](docs/architecture/high_level_architecture.md) | [Data Model Design](docs/data/data_model_design.md) | [Data Dictionary](docs/data/data_dictionary.md) | [Database Schema](docs/data/database_schema.md)
+- **Machine Learning Design Docs**: [ML System Design](docs/ml/ml_system_design.md) | [Feature Engineering](docs/ml/feature_engineering_design.md) | [Embedding Design](docs/ml/embedding_design.md) | [Clustering Design](docs/ml/clustering_design.md) | [Recommendation Engine](docs/ml/recommendation_engine_design.md) | [Evaluation Strategy](docs/ml/evaluation_strategy.md)
 
 ---
 
