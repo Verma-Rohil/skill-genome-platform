@@ -1,0 +1,269 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot,
+    top=0.2 cm,
+    bottom=0.2 cm,
+    left=1.2 cm,
+    right=1.2 cm,
+    footskip=0.5 cm,
+]{geometry}
+
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{myblue}{RGB}{0, 76, 153}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+
+\usepackage[
+    pdftitle={Rohil Verma - Data Analyst Resume},
+    pdfauthor={Rohil Verma},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+% ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+\usepackage{ragged2e}
+
+\justify
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}
+  {\needspace{4\baselineskip}\bfseries\large}
+  {}
+  {0pt}
+  {}
+  [\vspace{1pt}\titlerule]
+
+\titlespacing{\section}
+  {-1pt}
+  {0.25 cm}
+  {0.25 cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{0.00001 cm}{0.00001 cm}
+}{
+    \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+}
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}
+    \par
+    \kern\topsep
+    \centering
+    \linespread{1.5}
+}{
+    \par
+    \kern\topsep
+}
+
+\let\hrefWithoutArrow\href
+
+\begin{document}
+
+\newcommand{\AND}{
+    \unskip
+    \cleaders\copy\ANDbox\hskip\wd\ANDbox
+    \ignorespaces
+}
+
+\newsavebox\ANDbox
+\sbox\ANDbox{$|$}
+
+% ============================================================================
+% HEADER
+% ============================================================================
+\begin{header}
+    \fontsize{25 pt}{25 pt}\selectfont Rohil Verma
+
+    \normalsize
+    \kern 2.0 pt%
+\end{header}
+
+\vspace{0.15 cm}
+
+\\
+
+\mbox{\hrefWithoutArrow{tel:+91-882-988-66-35}{+91 8829886635}}%
+\kern 5.0 pt%
+\AND%
+\kern 5.0 pt%
+\mbox{\hrefWithoutArrow{mailto:pvt.rohil@gmail.com}{pvt.rohil@gmail.com}}%
+\kern 5.0 pt%
+\AND%
+\kern 5.0 pt%
+\mbox{\hrefWithoutArrow{https://www.linkedin.com/in/rohil-v1/}{\textcolor{myblue}{\underline{LinkedIn}}}}%
+\kern 5.0 pt%
+\AND%
+\kern 5.0 pt%
+\mbox{\hrefWithoutArrow{https://github.com/Verma-Rohil}{\textcolor{myblue}{\underline{GitHub}}}}%
+
+\\
+
+% ============================================================================
+% PROFILE — The thesis: what you do, how you do it, what happens when you do
+% ============================================================================
+\begin{onecolentry}
+\section{\textcolor{myblue}{\textbf{Profile}}}
+\textbf{Data Analyst} skilled in transforming raw, large-scale datasets into \textbf{actionable business intelligence} through end-to-end data solutions. Proficient in building \textbf{ETL pipelines} (Python, SQL), designing optimized \textbf{star schema data warehouses} (MySQL), and delivering interactive \textbf{Power BI dashboards} that enable data-driven decision-making across e-commerce, financial compliance, and D2C retail domains. Proven ability to automate reporting workflows (\textbf{40\% effort reduction}), improve inventory efficiency (\textbf{18\% reduction} in slow-moving stock), and communicate complex analytical insights to non-technical stakeholders. \textbf{M.Tech in Data Science}, NIT Jalandhar (\textbf{GATE qualified}).
+\end{onecolentry}
+
+\vspace{0.15 cm}
+
+% ============================================================================
+% WORK EXPERIENCE — Proof: you did it in the real world
+% ============================================================================
+\section{\textcolor{myblue}{\textbf{Work Experience}}}
+
+% --- Data Analyst Intern: proves the full pipeline in a business context ---
+\begin{twocolentry}{\textit{April 2025 -- Sept 2025}}
+\textbf{Data Analyst Intern}, \textcolor{myblue}{\underline{Khatushyam Fashion Pvt. Ltd. (KCPC Bandhani)}} \kern 2pt \href{https://drive.google.com/file/d/1kYHlutb7SgPZy7kuYSGTyOVHQhtVsAyp/view?usp=drive_link}{\textcolor{myblue}{\faIcon{link}}}
+\end{twocolentry}
+
+\vspace{0.06cm}
+
+\begin{onecolentry}
+\begin{highlights}
+\item Analyzed \textbf{50,000+ D2C transactions} using SQL and Python to uncover SKU-level revenue patterns, category trends, and seasonality insights that informed executive merchandising strategy.
+\item Built KPI-driven \textbf{Power BI dashboards} (Revenue, AOV, Conversion Rate, Inventory Turnover) and applied \textbf{Pareto analysis} to identify top 20\% SKUs driving \textbf{65\% of revenue}, reducing slow-moving inventory by \textbf{18\%}.
+\item Automated monthly reporting pipelines using Python, reducing manual effort by \textbf{40\%} and improving demand forecasting accuracy.
+\end{highlights}
+\end{onecolentry}
+
+\vspace{0.15cm}
+
+% --- Teaching: proves communication + fills gap + analytical thinking ---
+\begin{twocolentry}{\textit{June 2020 -- Dec 2023}}
+\textbf{Logical Reasoning Teacher}, \textcolor{myblue}{\underline{Solutions (Academy of Commerce)}} 
+\end{twocolentry}
+
+\vspace{0.06cm}
+
+\begin{onecolentry}
+\begin{highlights}
+\item Taught Logical Reasoning and Quantitative Aptitude to \textbf{150+ students} preparing for \textbf{Banking, SSC, and CAT} examinations, building expertise in \textbf{stakeholder communication}, data-driven problem simplification, and presenting complex analytical concepts to diverse audiences.
+\item Designed structured assessments for batches of \textbf{40--50 students}, applying \textbf{performance trend analysis} to iteratively improve teaching strategies and student outcomes.
+\end{highlights}
+\end{onecolentry}
+
+% ============================================================================
+% PROJECTS — Proof at scale: same pipeline, bigger data, different domains
+% ============================================================================
+\section{\textcolor{myblue}{\textbf{Projects}}}
+
+% --- Skill Genome Project: NLP and ML skill mapping platform ---
+\begin{twocolentry}{\href{https://github.com/Verma-Rohil/skill-genome-platform}{\textcolor{myblue}{\faIcon{github} GitHub}}}
+\textbf{Skill Genome \& Career Intelligence Platform}
+\end{twocolentry}
+
+\vspace{0.06cm}
+
+\begin{onecolentry}
+\begin{highlights}
+\item Built a career intelligence platform analyzing \textbf{10K postings} and \textbf{86K associations}: designed a \textbf{Trie prefix-tree extractor} for $O(N)$ linear-time taxonomy parsing and a cascading normalizer (Exact $\rightarrow$ Levenshtein $\rightarrow$ S-BERT Cosine) to unify entities.
+\item Programmed a \textbf{2-hop tech disruption simulator} propagating shocks across a co-occurrence network using conditional probabilities $P(B|A)$ as transition weights, and an upskilling recommender incorporating quadratic similarity credits ($s^2$).
+\item Pre-cached 384-dimensional Sentence-BERT embeddings in MySQL, enabling vector queries under \textbf{5ms}; developed a \textbf{FastAPI backend} and a glassmorphic \textbf{React dashboard} featuring native SVG radar models and vis.js graphs.
+\end{highlights}
+\end{onecolentry}
+
+\vspace{0.15cm}
+
+% --- Customer Intelligence Project: end-to-end ML platform ---
+\begin{twocolentry}{\href{https://github.com/Verma-Rohil/customer-intelligence-platform}{\textcolor{myblue}{\faIcon{github} GitHub}}}
+\textbf{Customer Intelligence \& Retention Platform}
+\end{twocolentry}
+
+\vspace{0.06cm}
+
+\begin{onecolentry}
+\begin{highlights}
+\item Built an end-to-end ML system on \textbf{100K+ transaction records}: engineered 30+ behavioral features (RFM, purchase velocity, review sentiment), trained a tuned \textbf{XGBoost classifier} (\textbf{0.92 ROC-AUC, 0.82 F1}) for churn prediction, and a \textbf{PyTorch Autoencoder} for outlier-based anomaly detection.
+\item Implemented a highly defensive pipeline: designed a \textbf{database-agnostic ETL engine} (MySQL with dynamic SQLite DDL transpilation fallback) and built an API with pre-compiled static JSON snapshots for zero-downtime model serving.
+\item Developed a \textbf{FastAPI backend} for real-time inference (segmentation, churn probability, SHAP explainability) integrated with a \textbf{React dashboard} featuring executive KPIs, interactive segment deep-dives, and a campaign ROI simulator.
+\end{highlights}
+\end{onecolentry}
+
+% ============================================================================
+% EDUCATION — Academic foundation that makes everything above possible
+% ============================================================================
+\section{\textcolor{myblue}{\textbf{Education}}}
+
+\begin{twocolentry}{\textit{Aug 2024 -- Present}}
+\textbf{M.Tech in Data Science}, \textcolor{myblue}{\underline{NIT Jalandhar}} — Qualified \textbf{GATE}; serving as \textbf{Teaching Assistant}
+\end{twocolentry}
+
+\vspace{0.15cm}
+
+\begin{twocolentry}{\textit{Aug 2014 -- June 2018}}
+\textbf{B.Tech in Mechanical Engineering}, \textcolor{myblue}{\underline{JECRC UDML College of Engineering}}
+\end{twocolentry}
+
+% ============================================================================
+% TECHNICAL SKILLS — The toolkit that ties every section together
+% ============================================================================
+\section{\textcolor{myblue}{\textbf{Technical Skills}}}
+
+\begin{highlights}
+\item \textbf{Languages:} Python, SQL
+\item \textbf{AI/ML:} Scikit-learn, XGBoost, PyTorch (Autoencoders), K-Means Clustering, Anomaly Detection, Statistical Modeling
+\item \textbf{Frameworks/Libraries:} Pandas, NumPy, FastAPI, React, Vite, SciPy, ETL Pipelines
+\item \textbf{Visualization:} Power BI, Advanced Excel, Matplotlib, Seaborn
+\item \textbf{Database:} MySQL, Star Schema Design, Stored Procedures, Window Functions, CTEs
+\end{highlights}
+\end{document}
