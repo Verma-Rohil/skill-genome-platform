@@ -1,7 +1,7 @@
 """
 Unit Tests — Skill Extractor Service
 =====================================
-Tests the TrieMatcher and SkillExtractor for exact string and alias matching,
+Tests the PhraseMatcher and SkillExtractor for exact string and alias matching,
 multi-word lookahead, punctuation resilience, and case insensitivity.
 """
 
@@ -10,7 +10,7 @@ import os
 import tempfile
 import json
 import csv
-from app.services.skill_extractor import TrieMatcher, SkillExtractor
+from app.services.skill_extractor import PhraseMatcher, SkillExtractor
 
 @pytest.fixture
 def temp_taxonomy():
@@ -37,9 +37,9 @@ def temp_taxonomy():
         os.remove(temp_path)
 
 
-def test_trie_matcher_basic():
-    """Tests basic word insertions and matching in TrieMatcher."""
-    matcher = TrieMatcher()
+def test_phrase_matcher_basic():
+    """Tests basic word insertions and matching in PhraseMatcher."""
+    matcher = PhraseMatcher()
     matcher.insert("python", "Python")
     matcher.insert("py", "Python")
     matcher.insert("machine learning", "Machine Learning")
@@ -51,9 +51,9 @@ def test_trie_matcher_basic():
     assert matcher.match("No skills in this text.") == set()
 
 
-def test_trie_matcher_multi_word():
-    """Tests that TrieMatcher performs longest-match lookahead correctly."""
-    matcher = TrieMatcher()
+def test_phrase_matcher_multi_word():
+    """Tests that PhraseMatcher performs longest-match lookahead correctly."""
+    matcher = PhraseMatcher()
     matcher.insert("learning", "Learning")
     matcher.insert("machine learning", "Machine Learning")
     
@@ -64,9 +64,9 @@ def test_trie_matcher_multi_word():
     assert matcher.match("Active learning is a technique.") == {"Learning"}
 
 
-def test_trie_matcher_punctuation_resilience():
-    """Tests that TrieMatcher is resilient to case and standard punctuation."""
-    matcher = TrieMatcher()
+def test_phrase_matcher_punctuation_resilience():
+    """Tests that PhraseMatcher is resilient to case and standard punctuation."""
+    matcher = PhraseMatcher()
     matcher.insert("next.js", "Next.js")
     matcher.insert("c++", "C++")
     matcher.insert("react", "React")

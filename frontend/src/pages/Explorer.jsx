@@ -257,7 +257,7 @@ function Explorer({ userSkills, addSkill, removeSkill }) {
         {/* Right Column: NLP Extractor */}
         <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
           <h3 style={{ fontFamily: 'var(--font-family-title)', fontSize: '1.15rem' }}>
-            NLP Skill Extractor (Trie Matcher)
+            NLP Skill Extractor (Phrase Matcher)
           </h3>
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
             Paste a job posting description or resume below to parse out matching canonical technology terms in linear time $O(N)$ with greedy lookahead.

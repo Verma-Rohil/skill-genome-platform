@@ -194,7 +194,7 @@ def test_extract_skills(client_override):
     assert response.status_code == 200
     json_data = response.json()
     assert "extracted_skills" in json_data
-    # "Python" and "PyTorch" should be extracted because they are matched in Trie
+    # "Python" and "PyTorch" should be extracted because they are matched in the taxonomy
     assert "Python" in json_data["extracted_skills"]
     assert "PyTorch" in json_data["extracted_skills"]
 

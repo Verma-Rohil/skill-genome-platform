@@ -7,51 +7,36 @@ from sqlalchemy.orm import Session
 from app.models.skill import Skill
 
 
-class TrieNode:
+class PhraseMatcher:
     def __init__(self):
-        self.children: Dict[str, 'TrieNode'] = {}
-        self.canonical_name: str = None
-
-
-class TrieMatcher:
-    def __init__(self):
-        self.root = TrieNode()
+        # We just store a simple flat dictionary of: normalized_phrase -> canonical_name
+        self.lookup: Dict[str, str] = {}
 
     def insert(self, alias: str, canonical_name: str):
-        """Inserts an alias into the Trie."""
+        """Inserts an alias into the matcher."""
         words = self._tokenize(alias)
-        if not words:
-            return
-            
-        current = self.root
-        for word in words:
-            if word not in current.children:
-                current.children[word] = TrieNode()
-            current = current.children[word]
-        current.canonical_name = canonical_name
+        if words:
+            phrase = " ".join(words)
+            self.lookup[phrase] = canonical_name
 
     def match(self, text: str) -> Set[str]:
-        """Extracts all matching skills from the text in linear time."""
+        """Extracts all matching skills from the text."""
         words = self._tokenize(text)
         extracted: Set[str] = set()
         n = len(words)
         
         i = 0
         while i < n:
-            current = self.root
             match_canonical = None
             match_length = 0
             
-            j = i
-            while j < n:
-                word = words[j]
-                if word in current.children:
-                    current = current.children[word]
-                    j += 1
-                    if current.canonical_name:
-                        match_canonical = current.canonical_name
-                        match_length = j - i
-                else:
+            # Check phrases starting at index i of lengths from max down to 1
+            # To handle greedy longest match (e.g. "machine learning" over "learning")
+            for length in range(n - i, 0, -1):
+                phrase = " ".join(words[i:i+length])
+                if phrase in self.lookup:
+                    match_canonical = self.lookup[phrase]
+                    match_length = length
                     break
             
             if match_canonical:
@@ -72,8 +57,8 @@ class TrieMatcher:
 
 class SkillExtractor:
     def __init__(self, db: Session = None, taxonomy_path: str = None):
-        """Initializes the SkillExtractor by building the Trie matcher."""
-        self.matcher = TrieMatcher()
+        """Initializes the SkillExtractor by building the matcher."""
+        self.matcher = PhraseMatcher()
         self.db = db
         
         if not taxonomy_path:
@@ -84,7 +69,7 @@ class SkillExtractor:
         self._load_skills()
 
     def _load_skills(self):
-        """Loads canonical skills and aliases into the Trie."""
+        """Loads canonical skills and aliases into the matcher."""
         loaded = False
         
         if self.db:
