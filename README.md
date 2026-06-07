@@ -24,6 +24,14 @@ Once running, the following local endpoints become available:
 | **API Health Check** | `http://localhost:8000/api/health` | JSON service health probe |
 | **MLflow Tracking** | `http://localhost:5000` | Experiment tracking and model registry UI |
 
+### Cloud Deployment (Render & Vercel)
+
+The platform is fully configured for serverless cloud hosting:
+* **Backend API (Render)**: Deploy the `/backend` directory as a Web Service. Render will build it using the multi-stage `Dockerfile`.
+  - Add the environment variable: `DATABASE_URL=sqlite:///data/skill_genome.db` (loads the pre-migrated 10k LinkedIn job postings SQLite database file).
+* **Frontend (Vercel)**: Deploy the `/frontend` directory as a static project.
+  - Add the environment variable: `VITE_API_BASE_URL=https://your-fastapi-service.onrender.com` (pointing to your Render backend API domain).
+
 
 ## 1. The Problem Statement
 

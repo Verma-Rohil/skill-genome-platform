@@ -4,13 +4,25 @@ from app.config import get_settings
 
 settings = get_settings()
 
-engine = create_engine(
-    settings.DATABASE_URL,
-    pool_pre_ping=True,
-    echo=settings.API_DEBUG,
-    pool_size=10,
-    max_overflow=20,
-)
+db_url = settings.DATABASE_URL
+connect_args = {}
+
+if db_url.startswith("sqlite"):
+    connect_args["check_same_thread"] = False
+    engine_kwargs = {
+        "connect_args": connect_args,
+        "pool_pre_ping": True,
+        "echo": settings.API_DEBUG,
+    }
+else:
+    engine_kwargs = {
+        "pool_pre_ping": True,
+        "echo": settings.API_DEBUG,
+        "pool_size": 10,
+        "max_overflow": 20,
+    }
+
+engine = create_engine(db_url, **engine_kwargs)
 
 SessionLocal = sessionmaker(
     autocommit=False,

@@ -1,4 +1,5 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import Field
 from functools import lru_cache
 
 
@@ -24,9 +25,16 @@ class Settings(BaseSettings):
     CLUSTER_METHOD: str = "kmeans"
     CLUSTER_N: int = 8
 
+    DB_URL: str | None = Field(default=None, validation_alias="DATABASE_URL")
+
     @property
     def DATABASE_URL(self) -> str:
-        """Construct MySQL connection string for SQLAlchemy."""
+        """Get database URL, prioritizing direct DB_URL environment variable."""
+        if self.DB_URL:
+            url = self.DB_URL
+            if url.startswith("postgres://"):
+                url = url.replace("postgres://", "postgresql://", 1)
+            return url
         return (
             f"mysql+pymysql://{self.DB_USER}:{self.DB_PASSWORD}"
             f"@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}"

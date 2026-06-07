@@ -29,7 +29,7 @@ function Dashboard() {
         setError(null);
       } catch (err) {
         console.error('Error loading dashboard data:', err);
-        setError('Failed to connect to the backend API server. Please make sure the FastAPI server is running on http://localhost:8000.');
+        setError('Failed to connect to the backend API server. Please check that the API service is running and accessible.');
       } finally {
         setLoading(false);
       }

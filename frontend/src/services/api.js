@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create API Axios client
 const apiClient = axios.create({
-  baseURL: '', // Empty because we rely on Vite's proxy '/api' to local host 8000
+  baseURL: import.meta.env.VITE_API_BASE_URL || '', // Dynamic base URL for public deployment, fallback to proxy locally
   headers: {
     'Content-Type': 'application/json',
   },

@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 from app.api import (
     skills_router,
@@ -20,13 +21,25 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
+allowed_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+]
+env_origins = os.getenv("ALLOWED_ORIGINS")
+if env_origins:
+    if env_origins.strip() == "*":
+        allowed_origins = ["*"]
+    else:
+        allowed_origins.extend([o.strip() for o in env_origins.split(",") if o.strip()])
+else:
+    allowed_origins.append("*")
+
+allow_credentials = "*" not in allowed_origins
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:3000",
-    ],
-    allow_credentials=True,
+    allow_origins=allowed_origins,
+    allow_credentials=allow_credentials,
     allow_methods=["*"],
     allow_headers=["*"],
 )
