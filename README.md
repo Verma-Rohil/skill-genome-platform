@@ -4,16 +4,26 @@ A production-inspired, end-to-end career intelligence system that models the pro
 
 ---
 
-## Live Services Links
+## Quick Start
 
-When running the project locally, you can access the following dashboards and API endpoints:
+```bash
+# Clone and launch all services with one command
+git clone https://github.com/Verma-Rohil/skill-genome-platform.git
+cd skill-genome-platform
 
-*   **Vite Dashboard UI**: [http://localhost:5173/](http://localhost:5173/)
-*   **FastAPI Documentation (Swagger Docs)**: [http://localhost:8000/docs](http://localhost:8000/docs)
-*   **API Health Status**: [http://localhost:8000/api/health](http://localhost:8000/api/health)
-*   **MLflow Tracking UI**: [http://localhost:5000/](http://localhost:5000/)
+# Windows: Double-click start_all.bat, or run:
+start_all.bat
+```
 
----
+Once running, the following local endpoints become available:
+
+| Service | URL | Description |
+| :--- | :--- | :--- |
+| **Dashboard UI** | `http://localhost:5173` | Interactive React + Vite analytics dashboard |
+| **API Docs (Swagger)** | `http://localhost:8000/docs` | Auto-generated FastAPI endpoint documentation |
+| **API Health Check** | `http://localhost:8000/api/health` | JSON service health probe |
+| **MLflow Tracking** | `http://localhost:5000` | Experiment tracking and model registry UI |
+
 
 ## 1. The Problem Statement
 
