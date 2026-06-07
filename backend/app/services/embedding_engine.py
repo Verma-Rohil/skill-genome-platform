@@ -5,7 +5,6 @@ Generates dense vector embeddings for skills using Sentence-BERT.
 import numpy as np
 from typing import List, Optional
 from sqlalchemy.orm import Session
-from sentence_transformers import SentenceTransformer
 from app.config import get_settings
 from app.models.skill import Skill
 from app.models.skill_embedding import SkillEmbedding
@@ -18,10 +17,11 @@ class EmbeddingEngine:
         self._model = None
 
     @property
-    def model(self) -> SentenceTransformer:
+    def model(self) -> "SentenceTransformer":
         """Lazy load S-BERT model to save startup time if not needed immediately."""
         if self._model is None:
             print(f"[EmbeddingEngine] Loading S-BERT model: {self.settings.EMBEDDING_MODEL_NAME}...")
+            from sentence_transformers import SentenceTransformer
             self._model = SentenceTransformer(self.settings.EMBEDDING_MODEL_NAME)
         return self._model
 

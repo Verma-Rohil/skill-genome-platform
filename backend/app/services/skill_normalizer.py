@@ -11,10 +11,6 @@ except ImportError:
     process = None
     fuzz = None
 
-try:
-    from sentence_transformers import SentenceTransformer
-except ImportError:
-    SentenceTransformer = None
 
 
 class SkillNormalizer:
@@ -129,7 +125,9 @@ class SkillNormalizer:
         if self._embedding_model is not None and self.skill_embeddings_matrix is not None:
             return True
             
-        if not SentenceTransformer:
+        try:
+            from sentence_transformers import SentenceTransformer
+        except ImportError:
             print("sentence-transformers library not installed. Skipping Tier 3.")
             return False
             
