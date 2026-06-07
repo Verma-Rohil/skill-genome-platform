@@ -17,12 +17,12 @@ start_all.bat
 
 Once running, the following local endpoints become available:
 
-| Service | URL | Description |
-| :--- | :--- | :--- |
-| **Dashboard UI** | `http://localhost:5173` | Interactive React + Vite analytics dashboard |
-| **API Docs (Swagger)** | `http://localhost:8000/docs` | Auto-generated FastAPI endpoint documentation |
-| **API Health Check** | `http://localhost:8000/api/health` | JSON service health probe |
-| **MLflow Tracking** | `http://localhost:5000` | Experiment tracking and model registry UI |
+| Service | Live Public URL | Local Development URL | Description |
+| :--- | :--- | :--- | :--- |
+| **Dashboard UI** | [https://skill-genome-platform.vercel.app/](https://skill-genome-platform.vercel.app/) | `http://localhost:5173` | Interactive React + Vite analytics dashboard |
+| **API Docs (Swagger)** | [https://skill-genome-platform.onrender.com/docs](https://skill-genome-platform.onrender.com/docs) | `http://localhost:8000/docs` | Auto-generated FastAPI endpoint documentation |
+| **API Health Check** | [https://skill-genome-platform.onrender.com/api/health](https://skill-genome-platform.onrender.com/api/health) | `http://localhost:8000/api/health` | JSON service health probe |
+| **MLflow Tracking** | *N/A (Local Only)* | `http://localhost:5000` | Experiment tracking and model registry UI |
 
 ### Cloud Deployment (Render & Vercel)
 
